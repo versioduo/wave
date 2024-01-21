@@ -799,7 +799,7 @@ private:
 
   void exportSettings(JsonArray json) override {
     {
-      JsonObject setting = json.createNestedObject();
+      JsonObject setting = json.add<JsonObject>();
       setting["type"]    = "number";
       setting["title"]   = "Amplifier";
       setting["label"]   = "Gain";
@@ -810,7 +810,7 @@ private:
       setting["path"]    = "gain";
     }
     {
-      JsonObject setting = json.createNestedObject();
+      JsonObject setting = json.add<JsonObject>();
       setting["type"]    = "number";
       setting["title"]   = "Synthesizer";
       setting["label"]   = "Tuning";
@@ -822,7 +822,7 @@ private:
     }
 
     {
-      JsonObject setting = json.createNestedObject();
+      JsonObject setting = json.add<JsonObject>();
       setting["type"]    = "color";
       setting["title"]   = "Light";
       setting["path"]    = "color";
@@ -837,7 +837,7 @@ private:
     json["tuning"]  = config.tuning;
 
     json["#color"]    = "The LED color. Hue, saturation, brightness, 0..127";
-    JsonArray jsonLed = json.createNestedArray("color");
+    JsonArray jsonLed = json["color"].to<JsonArray>();
     jsonLed.add(config.color.h);
     jsonLed.add(config.color.s);
     jsonLed.add(config.color.v);
@@ -889,117 +889,117 @@ private:
   }
 
   void exportInput(JsonObject json) override {
-    JsonArray jsonChannels = json.createNestedArray("channels");
+    JsonArray jsonChannels = json["channels"].to<JsonArray>();
 
     for (uint8_t ch = 0; ch < Codec.nChannels; ch++) {
-      JsonObject jsonChannel = jsonChannels.createNestedObject();
+      JsonObject jsonChannel = jsonChannels.add<JsonObject>();
       jsonChannel["number"]  = ch;
 
-      JsonArray jsonControllers = jsonChannel.createNestedArray("controllers");
+      JsonArray jsonControllers = jsonChannel["controllers"].to<JsonArray>();
       {
-        JsonObject jsonController = jsonControllers.createNestedObject();
+        JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Volume";
         jsonController["number"]  = (uint8_t)CC::Volume;
         jsonController["value"]   = _channels[ch].volume;
       }
       {
-        JsonObject jsonController = jsonControllers.createNestedObject();
+        JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Sine";
         jsonController["number"]  = (uint8_t)CC::WaveSine;
         jsonController["value"]   = (uint8_t)(Synth[ch].wave.sine * 127.f);
       }
       {
-        JsonObject jsonController = jsonControllers.createNestedObject();
+        JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Triangle";
         jsonController["number"]  = (uint8_t)CC::WaveTriangle;
         jsonController["value"]   = (uint8_t)(Synth[ch].wave.triangle * 127.f);
       }
       {
-        JsonObject jsonController = jsonControllers.createNestedObject();
+        JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Sawtooth";
         jsonController["number"]  = (uint8_t)CC::WaveSawtooth;
         jsonController["value"]   = (uint8_t)(Synth[ch].wave.sawtooth * 127.f);
       }
       {
-        JsonObject jsonController = jsonControllers.createNestedObject();
+        JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Square";
         jsonController["number"]  = (uint8_t)CC::WaveSquare;
         jsonController["value"]   = (uint8_t)(Synth[ch].wave.square * 127.f);
       }
       {
-        JsonObject jsonController = jsonControllers.createNestedObject();
+        JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Attack Time";
         jsonController["number"]  = (uint8_t)CC::EnvelopeAttack;
         jsonController["value"]   = (uint8_t)(Synth[ch].envelope.attack * 127.f);
       }
       {
-        JsonObject jsonController = jsonControllers.createNestedObject();
+        JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Decay Time";
         jsonController["number"]  = (uint8_t)CC::EnvelopeDecay;
         jsonController["value"]   = (uint8_t)(Synth[ch].envelope.decay * 127.f);
       }
       {
-        JsonObject jsonController = jsonControllers.createNestedObject();
+        JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Release Time";
         jsonController["number"]  = (uint8_t)CC::EnvelopeRelease;
         jsonController["value"]   = (uint8_t)(Synth[ch].envelope.release * 127.f);
       }
       {
-        JsonObject jsonController = jsonControllers.createNestedObject();
+        JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Vibrato Rate";
         jsonController["number"]  = (uint8_t)CC::VibratoRate;
         jsonController["value"]   = (uint8_t)(Synth[ch].getVibrato() * 127.f);
       }
       {
-        JsonObject jsonController = jsonControllers.createNestedObject();
+        JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Vibrato Depth";
         jsonController["number"]  = (uint8_t)CC::VibratoDepth;
         jsonController["value"]   = (uint8_t)(Synth[ch].vibrato.depth * 127.f);
       }
       {
-        JsonObject jsonController = jsonControllers.createNestedObject();
+        JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Portamento";
         jsonController["number"]  = (uint8_t)CC::Portamento;
         jsonController["value"]   = (uint8_t)(Synth[ch].portamento * 127.f);
       }
       {
-        JsonObject jsonController = jsonControllers.createNestedObject();
+        JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Distortion";
         jsonController["number"]  = (uint8_t)CC::Distortion;
         jsonController["value"]   = (uint8_t)(Synth[ch].getDistortion() * 127.f);
       }
       {
-        JsonObject jsonController = jsonControllers.createNestedObject();
+        JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Hue";
         jsonController["number"]  = (uint8_t)CC::Color;
         jsonController["value"]   = (uint8_t)(_led.h / 360.f * 127.f);
       }
       {
-        JsonObject jsonController = jsonControllers.createNestedObject();
+        JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Saturation";
         jsonController["number"]  = (uint8_t)CC::Saturation;
         jsonController["value"]   = (uint8_t)(_led.s * 127.f);
       }
       {
-        JsonObject jsonController = jsonControllers.createNestedObject();
+        JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Brightness";
         jsonController["number"]  = (uint8_t)CC::Brightness;
         jsonController["value"]   = (uint8_t)(_led.v * 127.f);
       }
       {
-        JsonObject jsonController = jsonControllers.createNestedObject();
+        JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Rainbow";
         jsonController["number"]  = (uint8_t)CC::Rainbow;
         jsonController["value"]   = (uint8_t)(_rainbow * 127.f);
       }
 
-      JsonObject jsonPitchbend = jsonChannel.createNestedObject("pitchbend");
+      JsonObject jsonPitchbend = jsonChannel["pitchbend"].to<JsonObject>();
       jsonPitchbend["value"]   = _channels[ch].play.pitchbend;
 
-      JsonObject jsonAftertouch = jsonChannel.createNestedObject("aftertouch");
+      JsonObject jsonAftertouch = jsonChannel["aftertouch"].to<JsonObject>();
       jsonAftertouch["value"]   = _channels[ch].play.aftertouch;
 
-      JsonObject jsonChromatic = jsonChannel.createNestedObject("chromatic");
+      JsonObject jsonChromatic = jsonChannel["chromatic"].to<JsonObject>();
       jsonChromatic["start"]   = Notes.start;
       jsonChromatic["count"]   = Notes.count;
     }
@@ -1008,11 +1008,11 @@ private:
   virtual void exportSystemMIDIFile(JsonObject json);
 
   void exportSystem(JsonObject json) override {
-    JsonObject jsonPower       = json.createNestedObject("power");
+    JsonObject jsonPower       = json["power"].to<JsonObject>();
     jsonPower["voltage"]       = serialized(String(Power.getVoltage(), 1));
     jsonPower["interruptions"] = Power.getInterruptions();
 
-    JsonObject jsonCodec = json.createNestedObject("codec");
+    JsonObject jsonCodec = json["codec"].to<JsonObject>();
     jsonCodec["load"]    = serialized(String(Codec.getLoad(), 3));
 
     exportSystemMIDIFile(json);
@@ -1092,7 +1092,7 @@ public:
 } MIDIFile;
 
 void Device::exportSystemMIDIFile(JsonObject json) {
-  JsonObject jsonTrack = json.createNestedObject("track");
+  JsonObject jsonTrack = json["track"].to<JsonObject>();
   char s[128];
   if (MIDIFile.copyTag(V2MIDI::File::Event::Meta::Title, s, sizeof(s)) > 0)
     jsonTrack["title"] = s;
