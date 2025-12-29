@@ -1,10 +1,6 @@
-// © Kay Sievers <kay@versioduo.com>, 2023
-// SPDX-License-Identifier: Apache-2.0
-
 #include "MIDISong.h"
 #include <V2Audio.h>
 #include <V2Buttons.h>
-#include <V2Color.h>
 #include <V2Device.h>
 #include <V2LED.h>
 #include <V2Link.h>
@@ -16,10 +12,10 @@
 
 V2DEVICE_METADATA("com.versioduo.wave", 5, "versioduo:samd:wave");
 
-static V2LED::WS2812 LED(2, PIN_LED_WS2812, &sercom5, SPI_PAD_3_SCK_1, PIO_SERCOM_ALT);
-static V2LED::WS2812 LEDExt(64, PIN_LED_WS2812_EXT, &sercom4, SPI_PAD_0_SCK_1, PIO_SERCOM);
-static V2Link::Port Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE);
-static V2Link::Port Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE);
+static V2LED::WS2812       LED(2, PIN_LED_WS2812, &sercom5, SPI_PAD_3_SCK_1, PIO_SERCOM_ALT);
+static V2LED::WS2812       LEDExt(64, PIN_LED_WS2812_EXT, &sercom4, SPI_PAD_0_SCK_1, PIO_SERCOM);
+static V2Link::Port        Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE);
+static V2Link::Port        Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE);
 static V2Base::Analog::ADC ADC(1);
 
 static class Power : public V2PowerSupply {
@@ -34,7 +30,7 @@ private:
   void handleNotify(float voltage) override {
     // Loss of power or requests to switch-on without a power connection show yellow LEDs.
     if (voltage < config.min) {
-      LED.splashHSV(0.5, V2Color::Yellow, 1, 0.5);
+      LED.splashHSV(0.5, V2Colour::Yellow, 1, 0.5);
       return;
     }
   }
@@ -70,8 +66,9 @@ private:
       if (!Power.on(continuous))
         return false;
 
-    } else
+    } else {
       Power.off();
+    }
 
     return true;
   }
@@ -211,7 +208,7 @@ public:
       _phasor.setFrequency(_frequency);
 
       if (!Codec.enableChannel(_channel)) {
-        LED.splashHSV(1, V2Color::Magenta, 1, 0.5);
+        LED.splashHSV(1, V2Colour::Magenta, 1, 0.5);
         stop();
       }
 
@@ -283,21 +280,21 @@ private:
   };
 
   const uint8_t _channel;
-  bool _delayResetParameters{};
+  bool          _delayResetParameters{};
 
-  float _frequency{};
+  float  _frequency{};
   Phasor _phasor;
 
   struct {
-    bool active{};
-    float rate{};
+    bool   active{};
+    float  rate{};
     Phasor phasor;
-    bool on{};
+    bool   on{};
   } _vibrato;
 
   struct {
-    bool active{};
-    float amount{};
+    bool   active{};
+    float  amount{};
     Phasor phasor;
   } _distortion;
 
@@ -376,9 +373,9 @@ private:
   }
 
   float getSample() override {
-    const bool reset  = _phasor.step();
-    const float phase = _phasor;
-    float sample      = getMixedSample(phase);
+    const bool  reset  = _phasor.step();
+    const float phase  = _phasor;
+    float       sample = getMixedSample(phase);
 
     // https://en.wikipedia.org/wiki/Phase_distortion_synthesis
     if (_distortion.active) {
@@ -481,7 +478,7 @@ public:
     Sinusoidal   = V2MIDI::CC::SoundController1,
     Distortion   = V2MIDI::CC::GeneralPurpose5,
 
-    Color      = V2MIDI::CC::Controller14,
+    Colour     = V2MIDI::CC::Controller14,
     Saturation = V2MIDI::CC::Controller15,
     Brightness = V2MIDI::CC::Controller89,
     Rainbow    = V2MIDI::CC::Controller90,
@@ -504,7 +501,7 @@ public:
     _channels[channel].play = {};
     _channels[channel].playing.reset();
 
-    LED.setHSV(channel, V2Color::Orange, 1, 0.25);
+    LED.setHSV(channel, V2Colour::Orange, 1, 0.25);
     LEDExt.reset();
   }
 
@@ -521,7 +518,7 @@ public:
 
     stopMIDIFile();
     LED.reset();
-    LED.setHSV(V2Color::Orange, 1, 0.25);
+    LED.setHSV(V2Colour::Orange, 1, 0.25);
     LEDExt.reset();
   }
 
@@ -530,7 +527,7 @@ private:
 
   struct {
     uint32_t usec{};
-    bool notes{};
+    bool     notes{};
   } _timeout;
 
   float _rainbow{};
@@ -550,7 +547,7 @@ private:
       int16_t pitchbend{};
     } play;
 
-    uint8_t volume{100};
+    uint8_t                       volume{100};
     V2Music::Playing<Notes.count> playing;
   } _channels[Codec.nChannels];
 
@@ -769,7 +766,7 @@ private:
         Synth[channel].setDistortion((float)value / 127.f);
         break;
 
-      case (uint8_t)CC::Color:
+      case (uint8_t)CC::Colour:
         _led.h = (float)value / 127.f * 360.f;
         break;
 
@@ -971,7 +968,7 @@ private:
       {
         JsonObject jsonController = jsonControllers.add<JsonObject>();
         jsonController["name"]    = "Hue";
-        jsonController["number"]  = (uint8_t)CC::Color;
+        jsonController["number"]  = (uint8_t)CC::Colour;
         jsonController["value"]   = (uint8_t)(_led.h / 360.f * 127.f);
       }
       {
@@ -1050,7 +1047,7 @@ private:
   V2MIDI::Packet _midi{};
 
   // Receive a host event from our parent device
-  void receivePlug(V2Link::Packet *packet) override {
+  void receivePlug(V2Link::Packet* packet) override {
     if (packet->getType() == V2Link::Packet::Type::MIDI) {
       packet->receive(&_midi);
       Device.dispatch(&Plug, &_midi);
@@ -1058,7 +1055,7 @@ private:
   }
 
   // Forward children device events to the host.
-  void receiveSocket(V2Link::Packet *packet) override {
+  void receiveSocket(V2Link::Packet* packet) override {
     if (packet->getType() == V2Link::Packet::Type::MIDI) {
       uint8_t address = packet->getAddress();
       if (address == 0x0f)
@@ -1077,7 +1074,7 @@ static class MIDIFile : public V2MIDI::File::Tracks {
 public:
   constexpr MIDIFile() : V2MIDI::File::Tracks(MIDISong) {}
 
-  bool handleSend(uint16_t track, V2MIDI::Packet *packet) {
+  bool handleSend(uint16_t track, V2MIDI::Packet* packet) {
     Device.dispatch(&Device.usb.midi, packet);
     return true;
   }
@@ -1093,7 +1090,7 @@ public:
 
 void Device::exportSystemMIDIFile(JsonObject json) {
   JsonObject jsonTrack = json["track"].to<JsonObject>();
-  char s[128];
+  char       s[128];
   if (MIDIFile.copyTag(V2MIDI::File::Event::Meta::Title, s, sizeof(s)) > 0)
     jsonTrack["title"] = s;
 
@@ -1154,7 +1151,7 @@ void setup() {
   digitalWrite(PIN_CODEC_MUTE, LOW);
   pinMode(PIN_CODEC_MUTE, OUTPUT);
 
-  Codec.begin([](Adafruit_ZeroDMA *dma) { Codec.fillNextBuffer(); });
+  Codec.begin([](Adafruit_ZeroDMA* dma) { Codec.fillNextBuffer(); });
   for (uint8_t ch = 0; ch < Codec.nChannels; ch++)
     Synth[ch].begin();
 
