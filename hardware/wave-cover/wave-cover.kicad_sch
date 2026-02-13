@@ -1,13 +1,13 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "6c8448b4-b04d-47e1-934e-e40cbe27a7be")
 	(paper "A4")
 	(title_block
 		(title "V2 wave")
-		(date "2023-05-07")
-		(rev "0")
+		(date "2026-02-13")
+		(rev "2026-02-13")
 		(company "Versio Duo")
 		(comment 1 "Cover")
 	)
@@ -103,13 +103,14 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "V2_Artwork:V2-logo"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "ICON"
-				(at -3.81 2.54 0)
+				(at -3.302 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -118,17 +119,16 @@
 				)
 			)
 			(property "Value" "V2-logo"
-				(at -5.08 -6.35 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
 			(property "Footprint" "V2_Artwork:Logo_Small"
-				(at 0 -7.62 0)
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -137,7 +137,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 0.508 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -154,28 +154,10 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "V2_Artwork:Logo_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(symbol "V2-logo_1_0"
 				(polyline
 					(pts
-						(xy -3.81 1.27) (xy 2.54 1.27) (xy 2.54 -3.81) (xy -3.81 -3.81) (xy -3.81 -2.54)
+						(xy -3.302 2.54) (xy 2.54 2.54) (xy 2.54 -2.54) (xy -3.302 -2.54) (xy -3.302 -1.27)
 					)
 					(stroke
 						(width 0.3)
@@ -185,15 +167,19 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "V2-logo_1_1"
 				(text "V2"
-					(at -0.7135 -1.6753 0)
+					(at -0.508 -0.254 0)
 					(effects
 						(font
 							(size 3 3)
+							(thickness 0.375)
 						)
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "V2_Mechanical:MountingHole_10mm"
 			(pin_names
@@ -210,7 +196,7 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole_10mm"
+			(property "Value" "10mm"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -237,16 +223,7 @@
 				)
 			)
 			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -285,6 +262,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "V2_Mechanical:MountingHole_1mm"
 			(pin_names
@@ -301,7 +279,7 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole_1mm"
+			(property "Value" "1mm"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -310,7 +288,7 @@
 				)
 			)
 			(property "Footprint" "V2_Mechanical:MountingHole_1mm"
-				(at 0 -5.08 0)
+				(at 0 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -328,16 +306,7 @@
 				)
 			)
 			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
+				(at 0 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -376,11 +345,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "V2_Mechanical:MountingHole_2mm_Pad_5.2mm"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -392,7 +366,7 @@
 					)
 				)
 			)
-			(property "Value" "MountingHole_2mm_Pad_5.2mm"
+			(property "Value" "2mm_Pad_5.2mm"
 				(at 0 4.445 0)
 				(effects
 					(font
@@ -400,7 +374,7 @@
 					)
 				)
 			)
-			(property "Footprint" "V2_Mechanical:Mounting_Hole_2mm_Pad_5.2mm"
+			(property "Footprint" "V2_Mechanical:MountingHole_2mm_Pad_5.2mm"
 				(at 0 -10.16 0)
 				(effects
 					(font
@@ -419,16 +393,7 @@
 				)
 			)
 			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -487,6 +452,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "V2_PCB_Devices:Button-top"
 			(exclude_from_sim no)
@@ -559,8 +525,9 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "V2_Production:Order_Number"
+		(symbol "V2_Production:Revision"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -572,7 +539,7 @@
 					)
 				)
 			)
-			(property "Value" "Order_Number"
+			(property "Value" ""
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -581,7 +548,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "V2_Production:Order_Number"
+			(property "Footprint" "V2_Production:Revision"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -608,29 +575,10 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Enable" "0"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Order_Number_0_0"
-				(text "ORDER-NUMBER"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "Order_Number_0_1"
+			(symbol "Revision_0_1"
 				(rectangle
-					(start -8.89 1.27)
-					(end 8.89 -1.27)
+					(start -5.08 1.27)
+					(end 5.08 -1.27)
 					(stroke
 						(width 0)
 						(type default)
@@ -640,17 +588,32 @@
 					)
 				)
 			)
+			(symbol "Revision_1_1"
+				(text "Revision"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "V2_power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -659,11 +622,12 @@
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -3.81 0)
+				(at 0 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Footprint" ""
@@ -684,8 +648,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
+			(property "Description" ""
+				(at 0 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -719,8 +683,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -736,17 +700,22 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
+		(symbol "V2_power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "#FLG"
-				(at 0 1.905 0)
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -755,7 +724,7 @@
 				)
 			)
 			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
+				(at -8.89 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -771,7 +740,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -781,7 +750,7 @@
 				)
 			)
 			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
+				(at 0 -10.922 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -800,9 +769,9 @@
 			)
 			(symbol "PWR_FLAG_0_0"
 				(pin power_out line
-					(at 0 0 90)
+					(at 0 0 180)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -821,7 +790,7 @@
 			(symbol "PWR_FLAG_0_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+						(xy 0 0) (xy -1.27 0) (xy -1.905 -1.016) (xy -2.54 0) (xy -1.905 1.016) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
@@ -832,35 +801,36 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
-		(at 105.41 73.66)
+		(at 111.76 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09a6345c-c848-496d-9f62-fc7a8a45db8b")
 	)
 	(junction
-		(at 105.41 81.28)
+		(at 111.76 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "729b049e-34f2-49cf-9517-8fc2b5b9a855")
 	)
 	(junction
-		(at 105.41 85.09)
+		(at 111.76 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d313931-9501-4c17-a968-3a3abe09c8b7")
 	)
 	(junction
-		(at 105.41 66.04)
+		(at 111.76 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae5dae20-76c5-44b5-93a7-fb5717b7573a")
 	)
 	(wire
 		(pts
-			(xy 105.41 73.66) (xy 105.41 81.28)
+			(xy 111.76 73.66) (xy 111.76 81.28)
 		)
 		(stroke
 			(width 0)
@@ -870,7 +840,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 58.42) (xy 105.41 66.04)
+			(xy 111.76 58.42) (xy 111.76 66.04)
 		)
 		(stroke
 			(width 0)
@@ -880,7 +850,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 81.28) (xy 105.41 85.09)
+			(xy 111.76 81.28) (xy 111.76 85.09)
 		)
 		(stroke
 			(width 0)
@@ -890,7 +860,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 66.04) (xy 105.41 73.66)
+			(xy 111.76 66.04) (xy 111.76 73.66)
 		)
 		(stroke
 			(width 0)
@@ -899,8 +869,8 @@
 		(uuid "cc9ccd78-f6ed-4a69-9e73-52116875a271")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 105.41 85.09 0)
+		(lib_id "V2_power:GND")
+		(at 111.76 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -909,7 +879,7 @@
 		(fields_autoplaced yes)
 		(uuid "23651f76-fae5-4dcc-a59c-e18c6b3dfacc")
 		(property "Reference" "#PWR0101"
-			(at 105.41 91.44 0)
+			(at 111.76 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,15 +888,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 90.17 0)
+			(at 111.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 85.09 0)
+			(at 111.76 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,7 +906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 85.09 0)
+			(at 111.76 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,7 +915,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 85.09 0)
+			(at 111.76 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -966,16 +937,16 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_2mm_Pad_5.2mm")
-		(at 107.95 66.04 270)
+		(at 114.3 66.04 270)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "319787d4-c502-4634-86e8-9ce9ee884524")
 		(property "Reference" "H102"
-			(at 111.76 64.7699 90)
+			(at 118.11 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -983,8 +954,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_5.2mm"
-			(at 111.76 67.3099 90)
+		(property "Value" "2mm_Pad_5.2mm"
+			(at 118.11 67.3099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -992,8 +963,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Mechanical:Mounting_Hole_2mm_Pad_5.2mm"
-			(at 107.95 66.04 0)
+		(property "Footprint" "V2_Mechanical:MountingHole_2mm_Pad_5.2mm"
+			(at 114.3 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1002,7 +973,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 66.04 0)
+			(at 114.3 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1010,8 +981,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 107.95 66.04 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 114.3 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1033,15 +1004,15 @@
 	)
 	(symbol
 		(lib_id "V2_Artwork:Board_wave")
-		(at 124.46 140.97 0)
+		(at 129.54 147.32 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "72b00ec0-a5dc-420c-8dd9-e193fd44a177")
 		(property "Reference" "ICON101"
-			(at 120.65 137.16 0)
+			(at 133.858 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,7 +1021,7 @@
 			)
 		)
 		(property "Value" "Board_wave"
-			(at 124.46 143.51 0)
+			(at 129.54 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1059,7 +1030,7 @@
 			)
 		)
 		(property "Footprint" "V2_Artwork:Board_wave_Small"
-			(at 124.46 146.05 0)
+			(at 129.54 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 140.97 0)
+			(at 129.54 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +1048,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 140.97 0)
+			(at 129.54 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 129.54 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1095,24 +1075,24 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Production:Order_Number")
-		(at 191.77 140.97 0)
+		(lib_id "V2_Production:Revision")
+		(at 130.81 156.21 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "7eb06b9d-d894-478a-bc35-8590f2ab48d6")
 		(property "Reference" "INFO101"
-			(at 191.77 137.16 0)
+			(at 144.272 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ORDER-NUMBER"
-			(at 191.77 143.51 0)
+		(property "Value" "~"
+			(at 130.81 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,8 +1100,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "V2_Production:Order_Number"
-			(at 191.77 146.05 0)
+		(property "Footprint" "V2_Production:Revision"
+			(at 130.81 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1130,7 +1110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 140.97 0)
+			(at 130.81 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1139,7 +1119,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 140.97 0)
+			(at 130.81 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1158,16 +1138,16 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_10mm")
-		(at 163.83 73.66 270)
+		(at 170.18 73.66 270)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87fde4fc-4af5-4da5-a9d5-ec37d2bd32ed")
 		(property "Reference" "H108"
-			(at 166.37 73.025 90)
+			(at 172.72 73.025 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,8 +1155,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_10mm"
-			(at 166.37 75.565 90)
+		(property "Value" "10mm"
+			(at 172.72 75.565 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,7 +1165,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_10mm"
-			(at 158.75 73.66 0)
+			(at 165.1 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,8 +1173,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 163.83 73.66 0)
+		(property "Datasheet" ""
+			(at 170.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1202,8 +1182,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 163.83 73.66 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 170.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1222,15 +1202,15 @@
 	)
 	(symbol
 		(lib_id "V2_PCB_Devices:Button-top")
-		(at 156.21 140.97 0)
+		(at 168.91 152.4 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "96abbcfb-4646-4a7d-bbca-fde2aab97088")
 		(property "Reference" "SWT101"
-			(at 152.4 133.3499 0)
+			(at 165.1 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,7 +1219,7 @@
 			)
 		)
 		(property "Value" "Button-top"
-			(at 151.13 137.1599 0)
+			(at 163.83 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1228,7 @@
 			)
 		)
 		(property "Footprint" "V2_PCB_Devices:PCB_Button-top"
-			(at 156.21 146.05 0)
+			(at 168.91 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 140.97 0)
+			(at 168.91 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1246,16 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 140.97 0)
+			(at 168.91 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 168.91 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1285,16 +1274,16 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_2mm_Pad_5.2mm")
-		(at 107.95 81.28 270)
+		(at 114.3 81.28 270)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98ac4b2a-4d95-4694-a16b-703832ea3e92")
 		(property "Reference" "H104"
-			(at 111.76 80.0099 90)
+			(at 118.11 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,8 +1291,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_5.2mm"
-			(at 111.76 82.5499 90)
+		(property "Value" "2mm_Pad_5.2mm"
+			(at 118.11 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,8 +1300,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Mechanical:Mounting_Hole_2mm_Pad_5.2mm"
-			(at 107.95 81.28 0)
+		(property "Footprint" "V2_Mechanical:MountingHole_2mm_Pad_5.2mm"
+			(at 114.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1321,7 +1310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 81.28 0)
+			(at 114.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,8 +1318,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 107.95 81.28 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 114.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1352,16 +1341,16 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_10mm")
-		(at 163.83 81.28 270)
+		(at 170.18 81.28 270)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f65e684-8e12-4ae4-8448-6f1748efe88f")
 		(property "Reference" "H109"
-			(at 166.37 80.645 90)
+			(at 172.72 80.645 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,8 +1358,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_10mm"
-			(at 166.37 83.185 90)
+		(property "Value" "10mm"
+			(at 172.72 83.185 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1368,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_10mm"
-			(at 158.75 81.28 0)
+			(at 165.1 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,8 +1376,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 163.83 81.28 0)
+		(property "Datasheet" ""
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,8 +1385,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 163.83 81.28 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 170.18 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,15 +1405,15 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_2mm_Pad_5.2mm")
-		(at 107.95 58.42 270)
+		(at 114.3 58.42 270)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b5a9ea4e-8814-429b-a837-07a2647096fd")
 		(property "Reference" "H101"
-			(at 111.76 57.1499 90)
+			(at 118.11 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1432,16 +1421,16 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_5.2mm"
-			(at 127 59.6899 90)
+		(property "Value" "2mm_Pad_5.2mm"
+			(at 126.492 60.1979 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "V2_Mechanical:Mounting_Hole_2mm_Pad_5.2mm"
-			(at 107.95 58.42 0)
+		(property "Footprint" "V2_Mechanical:MountingHole_2mm_Pad_5.2mm"
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,7 +1439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 58.42 0)
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1458,8 +1447,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 107.95 58.42 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,8 +1469,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 105.41 85.09 90)
+		(lib_id "V2_power:PWR_FLAG")
+		(at 111.76 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1489,7 +1478,7 @@
 		(dnp no)
 		(uuid "e995d846-5a83-4b77-a7d8-b01029861643")
 		(property "Reference" "#FLG0101"
-			(at 103.505 85.09 0)
+			(at 111.76 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,7 +1487,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 96.52 85.09 90)
+			(at 103.378 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1506,7 +1495,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 85.09 0)
+			(at 111.76 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,8 +1503,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 105.41 85.09 0)
+		(property "Datasheet" ""
+			(at 111.76 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,8 +1512,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 105.41 85.09 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 111.76 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1546,15 +1535,15 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_1mm")
-		(at 109.22 106.68 0)
+		(at 115.57 106.68 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "fe49530f-fb70-42cd-8eec-8a43f7b0cde7")
 		(property "Reference" "H105"
-			(at 112.0577 105.4569 0)
+			(at 118.4077 105.4569 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,8 +1551,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_1mm"
-			(at 121.285 107.95 0)
+		(property "Value" "1mm"
+			(at 121.031 108.204 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1571,7 +1560,7 @@
 			)
 		)
 		(property "Footprint" "V2_Mechanical:MountingHole_1mm"
-			(at 109.22 111.76 0)
+			(at 115.57 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,7 +1569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 106.68 0)
+			(at 115.57 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,8 +1577,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 109.22 106.68 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 115.57 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1608,15 +1597,15 @@
 	)
 	(symbol
 		(lib_id "V2_Artwork:V2-logo")
-		(at 101.6 139.7 0)
+		(at 130.81 138.43 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ff5fa334-854e-4ca7-a359-9c419e0f5264")
 		(property "Reference" "ICON102"
-			(at 102.235 130.81 0)
+			(at 140.081 138.43 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -1624,15 +1613,16 @@
 			)
 		)
 		(property "Value" "V2-logo"
-			(at 102.235 134.62 0)
+			(at 131.445 133.35 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "V2_Artwork:Logo_Small"
-			(at 101.6 147.32 0)
+			(at 130.81 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,7 +1631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 139.7 0)
+			(at 130.81 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1650,7 +1640,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 139.7 0)
+			(at 130.81 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1669,16 +1659,16 @@
 	)
 	(symbol
 		(lib_id "V2_Mechanical:MountingHole_2mm_Pad_5.2mm")
-		(at 107.95 73.66 270)
+		(at 114.3 73.66 270)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff7338d3-651e-41af-8883-2fcfd9cca8c0")
 		(property "Reference" "H103"
-			(at 111.76 72.3899 90)
+			(at 118.11 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,8 +1676,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_2mm_Pad_5.2mm"
-			(at 111.76 74.9299 90)
+		(property "Value" "2mm_Pad_5.2mm"
+			(at 118.11 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1695,8 +1685,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Mechanical:Mounting_Hole_2mm_Pad_5.2mm"
-			(at 107.95 73.66 0)
+		(property "Footprint" "V2_Mechanical:MountingHole_2mm_Pad_5.2mm"
+			(at 114.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,7 +1695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 73.66 0)
+			(at 114.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1713,8 +1703,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 107.95 73.66 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 114.3 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1739,4 +1729,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
