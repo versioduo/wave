@@ -817,12 +817,6 @@
 		(uuid "729b049e-34f2-49cf-9517-8fc2b5b9a855")
 	)
 	(junction
-		(at 111.76 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d313931-9501-4c17-a968-3a3abe09c8b7")
-	)
-	(junction
 		(at 111.76 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -878,7 +872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23651f76-fae5-4dcc-a59c-e18c6b3dfacc")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR101"
 			(at 111.76 91.44 0)
 			(effects
 				(font
@@ -929,7 +923,7 @@
 		(instances
 			(project "wave-cover"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR0101")
+					(reference "#PWR101")
 					(unit 1)
 				)
 			)
@@ -997,6 +991,138 @@
 			(project "wave-cover"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "H102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "V2_power:GND")
+		(at 123.19 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "340a9266-29fa-4a85-b694-453f9ecad311")
+		(property "Reference" "#PWR0102"
+			(at 129.54 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e221b12f-4323-4e10-98e1-558e7ba0c1c9")
+		)
+		(instances
+			(project "wave-cover"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "V2_power:PWR_FLAG")
+		(at 123.19 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a9427c8-9768-4ce2-b50a-f1ef5d2f24a1")
+		(property "Reference" "#FLG0102"
+			(at 123.19 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 114.808 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 123.19 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2a581f4-a0ab-445a-86ba-ca389de5610e")
+		)
+		(instances
+			(project "wave-cover"
+				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
+					(reference "#FLG0102")
 					(unit 1)
 				)
 			)
@@ -1463,71 +1589,6 @@
 			(project "wave-cover"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
 					(reference "H101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "V2_power:PWR_FLAG")
-		(at 111.76 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e995d846-5a83-4b77-a7d8-b01029861643")
-		(property "Reference" "#FLG0101"
-			(at 111.76 83.185 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 103.378 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 111.76 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db5560ef-0366-472a-9663-c9974ffa9898")
-		)
-		(instances
-			(project "wave-cover"
-				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG0101")
 					(unit 1)
 				)
 			)

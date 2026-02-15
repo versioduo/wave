@@ -1313,7 +1313,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Device:C_0603_0u1"
+		(symbol "V2_Capacitor:0603_0u1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1427,7 +1427,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0603_0u1_0_1"
+			(symbol "0603_0u1_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -1453,7 +1453,7 @@
 					)
 				)
 			)
-			(symbol "C_0603_0u1_1_1"
+			(symbol "0603_0u1_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -1493,7 +1493,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Device:C_0603_1000p"
+		(symbol "V2_Capacitor:0603_1000p"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1607,7 +1607,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0603_1000p_0_1"
+			(symbol "0603_1000p_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -1633,7 +1633,7 @@
 					)
 				)
 			)
-			(symbol "C_0603_1000p_1_1"
+			(symbol "0603_1000p_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -1673,7 +1673,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Device:C_0603_10u"
+		(symbol "V2_Capacitor:0603_10u"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1787,7 +1787,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0603_10u_0_1"
+			(symbol "0603_10u_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -1813,7 +1813,7 @@
 					)
 				)
 			)
-			(symbol "C_0603_10u_1_1"
+			(symbol "0603_10u_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -1853,7 +1853,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Device:C_0603_1u"
+		(symbol "V2_Capacitor:0603_1u"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1967,7 +1967,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_0603_1u_0_1"
+			(symbol "0603_1u_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -1993,7 +1993,7 @@
 					)
 				)
 			)
-			(symbol "C_0603_1u_1_1"
+			(symbol "0603_1u_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -2033,7 +2033,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Device:C_Polarized_8x10.2_330u"
+		(symbol "V2_Capacitor:Polarized_8x10.2_330u"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2147,7 +2147,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "C_Polarized_8x10.2_330u_0_1"
+			(symbol "Polarized_8x10.2_330u_0_1"
 				(rectangle
 					(start -1.524 0.6858)
 					(end 1.524 0.3048)
@@ -2195,7 +2195,7 @@
 					)
 				)
 			)
-			(symbol "C_Polarized_8x10.2_330u_1_1"
+			(symbol "Polarized_8x10.2_330u_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 1.8542)
@@ -2217,688 +2217,6 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 1.8542)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "V2_Device:FerriteBead_1206_50Ohm"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at 1.905 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "50 Ohm"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "V2_Inductor_SMD:L_1206"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead, small symbol"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "623-2512065007Y6"
-				(at 0 -22.86 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Fair-Rite"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Product" "2512065007Y6"
-				(at 0 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_1206_50Ohm_0_1"
-				(polyline
-					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.889) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1206_50Ohm_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "V2_Device:R_0603_33k"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.27 1.27 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "33k"
-				(at 1.27 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "71- 71-CRCW060333K0FKEAH"
-				(at 0 -22.86 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "330mW"
-				(at 0 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 -15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Product" "CRCW060333K0FKEAHP"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0603_33k_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_33k_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "V2_Device:R_0603_47k"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.27 1.27 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "47k"
-				(at 1.27 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" "71-RCS060347K0FKEA"
-				(at 0 -22.86 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "250mW"
-				(at 0 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 -15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Product" "RCS060347K0FKEA"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0603_47k_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_47k_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "V2_Device:R_0603_680R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.27 1.27 0)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "680R"
-				(at 1.27 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "V2_Resistor_SMD:R_0603"
-				(at 0 -15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser" " 71-RCS0603680RFKEA"
-				(at 0 -22.86 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "250mW"
-				(at 0 -20.32 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Vishay"
-				(at 0 -15.24 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Product" "RCS0603680RFKEA"
-				(at 0 -17.78 0)
-				(show_name)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0603_680R_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0603_680R_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -3061,6 +2379,688 @@
 					(at 2.54 0 180)
 					(length 1.27)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Inductor:FerriteBead_1206_50Ohm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" ""
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "V2_Inductor_SMD:L_1206"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead, small symbol"
+				(at 0 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Fair-Rite"
+				(at 0 -21.59 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "2512065007Y6"
+				(at 0 -16.51 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "623-2512065007Y6"
+				(at 0 -19.05 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_1206_50Ohm_0_1"
+				(polyline
+					(pts
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.889) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -0.7874)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1206_50Ohm_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Resistor:0603_33k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "33k"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71- 71-CRCW060333K0FKEAH"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "330mW"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "CRCW060333K0FKEAHP"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603_33k_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603_33k_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Resistor:0603_47k"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "47k"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" "71-RCS060347K0FKEA"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "250mW"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "RCS060347K0FKEA"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603_47k_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603_47k_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "V2_Resistor:0603_680R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "680R"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "V2_Resistor_SMD:R_0603"
+				(at 0 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser" " 71-RCS0603680RFKEA"
+				(at 0 -22.86 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Rating" "250mW"
+				(at 0 -20.32 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Product" "RCS0603680RFKEA"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0603_680R_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0603_680R_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5557,7 +5557,7 @@
 		(uuid "ea89ddda-57c8-467b-8c4f-9e16237c523a")
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1000p")
+		(lib_id "V2_Capacitor:0603_1000p")
 		(at 156.21 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5662,7 +5662,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_10u")
+		(lib_id "V2_Capacitor:0603_10u")
 		(at 119.38 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5767,7 +5767,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1u")
+		(lib_id "V2_Capacitor:0603_1u")
 		(at 119.38 132.08 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5871,7 +5871,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_0u1")
+		(lib_id "V2_Capacitor:0603_0u1")
 		(at 119.38 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6262,7 +6262,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_680R")
+		(lib_id "V2_Resistor:0603_680R")
 		(at 45.72 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6462,7 +6462,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:FerriteBead_1206_50Ohm")
+		(lib_id "V2_Inductor:FerriteBead_1206_50Ohm")
 		(at 146.05 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6478,7 +6478,7 @@
 				)
 			)
 		)
-		(property "Value" "50 Ohm"
+		(property "Value" "~"
 			(at 150.622 80.137 90)
 			(effects
 				(font
@@ -6557,7 +6557,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1u")
+		(lib_id "V2_Capacitor:0603_1u")
 		(at 143.51 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6662,7 +6662,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1u")
+		(lib_id "V2_Capacitor:0603_1u")
 		(at 82.55 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6774,7 +6774,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c65f55e-78e2-4243-ba62-8330b2012d8a")
-		(property "Reference" "#PWR0208"
+		(property "Reference" "#PWR208"
 			(at 85.09 137.16 0)
 			(effects
 				(font
@@ -6826,14 +6826,14 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0208")
+					(reference "#PWR208")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1u")
+		(lib_id "V2_Capacitor:0603_1u")
 		(at 55.88 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6938,7 +6938,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_33k")
+		(lib_id "V2_Resistor:0603_33k")
 		(at 45.72 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7051,7 +7051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37b90082-2958-466a-91ea-453b0b08a46d")
-		(property "Reference" "#PWR0207"
+		(property "Reference" "#PWR207"
 			(at 85.09 134.62 0)
 			(effects
 				(font
@@ -7103,14 +7103,14 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0207")
+					(reference "#PWR207")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_10u")
+		(lib_id "V2_Capacitor:0603_10u")
 		(at 119.38 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7215,7 +7215,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_10u")
+		(lib_id "V2_Capacitor:0603_10u")
 		(at 119.38 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7415,7 +7415,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1u")
+		(lib_id "V2_Capacitor:0603_1u")
 		(at 81.28 160.02 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7519,7 +7519,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_10u")
+		(lib_id "V2_Capacitor:0603_10u")
 		(at 55.88 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7624,7 +7624,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1u")
+		(lib_id "V2_Capacitor:0603_1u")
 		(at 77.47 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7736,7 +7736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ab0a37f-0a2f-46ff-8cae-60c5adc391bf")
-		(property "Reference" "#PWR0209"
+		(property "Reference" "#PWR209"
 			(at 95.25 142.24 0)
 			(effects
 				(font
@@ -7787,7 +7787,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0209")
+					(reference "#PWR209")
 					(unit 1)
 				)
 			)
@@ -7889,7 +7889,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1u")
+		(lib_id "V2_Capacitor:0603_1u")
 		(at 119.38 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7993,7 +7993,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_0u1")
+		(lib_id "V2_Capacitor:0603_0u1")
 		(at 148.59 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8097,7 +8097,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_10u")
+		(lib_id "V2_Capacitor:0603_10u")
 		(at 129.54 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8210,7 +8210,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b521dec-b576-4d47-b989-b8164114db77")
-		(property "Reference" "#PWR0218"
+		(property "Reference" "#PWR218"
 			(at 143.51 50.8 0)
 			(effects
 				(font
@@ -8261,7 +8261,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0218")
+					(reference "#PWR218")
 					(unit 1)
 				)
 			)
@@ -8277,7 +8277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60a28585-4e5f-46ed-8576-cd8fb1f1d572")
-		(property "Reference" "#PWR0206"
+		(property "Reference" "#PWR206"
 			(at 85.09 106.68 0)
 			(effects
 				(font
@@ -8329,14 +8329,14 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0206")
+					(reference "#PWR206")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_Polarized_8x10.2_330u")
+		(lib_id "V2_Capacitor:Polarized_8x10.2_330u")
 		(at 163.83 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8450,7 +8450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6593f6a0-a07e-4da9-809f-b419ff126e75")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR201"
 			(at 45.72 68.58 0)
 			(effects
 				(font
@@ -8501,14 +8501,14 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0201")
+					(reference "#PWR201")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:FerriteBead_1206_50Ohm")
+		(lib_id "V2_Inductor:FerriteBead_1206_50Ohm")
 		(at 146.05 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8524,7 +8524,7 @@
 				)
 			)
 		)
-		(property "Value" "50 Ohm"
+		(property "Value" "~"
 			(at 150.622 92.837 90)
 			(effects
 				(font
@@ -8611,7 +8611,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "747ffcd3-3d2f-445d-832e-fc74ec90f309")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR204"
 			(at 82.55 66.04 0)
 			(effects
 				(font
@@ -8662,14 +8662,14 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0204")
+					(reference "#PWR204")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1u")
+		(lib_id "V2_Capacitor:0603_1u")
 		(at 91.44 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8781,7 +8781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7983e9a8-2b7e-4864-a092-9b12bb62bb4e")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR202"
 			(at 78.74 149.86 0)
 			(effects
 				(font
@@ -8832,14 +8832,14 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0202")
+					(reference "#PWR202")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1u")
+		(lib_id "V2_Capacitor:0603_1u")
 		(at 109.22 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8944,7 +8944,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1000p")
+		(lib_id "V2_Capacitor:0603_1000p")
 		(at 156.21 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9049,7 +9049,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1000p")
+		(lib_id "V2_Capacitor:0603_1000p")
 		(at 156.21 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9162,7 +9162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82c205cc-4ebc-4640-b0c5-5525c11d238f")
-		(property "Reference" "#PWR0212"
+		(property "Reference" "#PWR212"
 			(at 92.71 66.04 0)
 			(effects
 				(font
@@ -9213,7 +9213,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0212")
+					(reference "#PWR212")
 					(unit 1)
 				)
 			)
@@ -9228,7 +9228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "842b4d7d-beef-4bc2-9d43-2128e4f60709")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR223"
 			(at 200.66 106.68 0)
 			(effects
 				(font
@@ -9279,14 +9279,14 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0223")
+					(reference "#PWR223")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1u")
+		(lib_id "V2_Capacitor:0603_1u")
 		(at 92.71 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9390,7 +9390,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:R_0603_47k")
+		(lib_id "V2_Resistor:0603_47k")
 		(at 44.45 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9495,7 +9495,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_10u")
+		(lib_id "V2_Capacitor:0603_10u")
 		(at 153.67 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9741,7 +9741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96fd177f-9742-459f-b71c-67925af7e10f")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR203"
 			(at 81.28 168.91 0)
 			(effects
 				(font
@@ -9792,7 +9792,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0203")
+					(reference "#PWR203")
 					(unit 1)
 				)
 			)
@@ -9807,7 +9807,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bb017d2-0af7-42a3-95fb-b3f54fa4d407")
-		(property "Reference" "#FLG0201"
+		(property "Reference" "#FLG201"
 			(at 92.075 39.37 0)
 			(effects
 				(font
@@ -9857,7 +9857,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#FLG0201")
+					(reference "#FLG201")
 					(unit 1)
 				)
 			)
@@ -9968,7 +9968,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a50b00e2-a55b-4e8c-b6cc-29bba29b59bb")
-		(property "Reference" "#PWR0217"
+		(property "Reference" "#PWR217"
 			(at 137.16 161.29 0)
 			(effects
 				(font
@@ -10019,14 +10019,14 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0217")
+					(reference "#PWR217")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_10u")
+		(lib_id "V2_Capacitor:0603_10u")
 		(at 119.38 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10226,7 +10226,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_Polarized_8x10.2_330u")
+		(lib_id "V2_Capacitor:Polarized_8x10.2_330u")
 		(at 129.54 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10339,7 +10339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab6bafe9-8d27-4db5-b1c5-45664183ca47")
-		(property "Reference" "#PWR0210"
+		(property "Reference" "#PWR210"
 			(at 85.09 144.78 0)
 			(effects
 				(font
@@ -10391,7 +10391,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0210")
+					(reference "#PWR210")
 					(unit 1)
 				)
 			)
@@ -10407,7 +10407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac2ddacd-5810-47ff-900d-e2e2f293695a")
-		(property "Reference" "#PWR0216"
+		(property "Reference" "#PWR216"
 			(at 137.16 146.05 0)
 			(effects
 				(font
@@ -10458,14 +10458,14 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0216")
+					(reference "#PWR216")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_10u")
+		(lib_id "V2_Capacitor:0603_10u")
 		(at 129.54 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10570,7 +10570,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_10u")
+		(lib_id "V2_Capacitor:0603_10u")
 		(at 129.54 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10675,7 +10675,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:FerriteBead_1206_50Ohm")
+		(lib_id "V2_Inductor:FerriteBead_1206_50Ohm")
 		(at 146.05 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10691,7 +10691,7 @@
 				)
 			)
 		)
-		(property "Value" "50 Ohm"
+		(property "Value" "~"
 			(at 150.622 105.537 90)
 			(effects
 				(font
@@ -10770,7 +10770,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1u")
+		(lib_id "V2_Capacitor:0603_1u")
 		(at 119.38 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10882,7 +10882,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b55a26c9-be9c-433a-8634-0b853e7ce729")
-		(property "Reference" "#PWR0220"
+		(property "Reference" "#PWR220"
 			(at 162.56 115.57 0)
 			(effects
 				(font
@@ -10934,7 +10934,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0220")
+					(reference "#PWR220")
 					(unit 1)
 				)
 			)
@@ -10949,7 +10949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b5e367c3-a7ad-492b-83c9-e7e1bfd262a4")
-		(property "Reference" "#PWR0205"
+		(property "Reference" "#PWR205"
 			(at 85.09 99.06 0)
 			(effects
 				(font
@@ -11001,14 +11001,14 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0205")
+					(reference "#PWR205")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1000p")
+		(lib_id "V2_Capacitor:0603_1000p")
 		(at 156.21 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11121,7 +11121,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bee62268-6715-42bd-a2fa-65bb63e31bc4")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR224"
 			(at 200.66 119.38 0)
 			(effects
 				(font
@@ -11172,7 +11172,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0224")
+					(reference "#PWR224")
 					(unit 1)
 				)
 			)
@@ -11187,7 +11187,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c533f6ff-a5b6-4de5-924e-82b5159dfdd9")
-		(property "Reference" "#PWR0211"
+		(property "Reference" "#PWR211"
 			(at 91.44 168.91 0)
 			(effects
 				(font
@@ -11238,14 +11238,14 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0211")
+					(reference "#PWR211")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1u")
+		(lib_id "V2_Capacitor:0603_1u")
 		(at 137.16 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11357,7 +11357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb98bdae-0c60-4c99-a66b-d2945cd6d323")
-		(property "Reference" "#PWR0222"
+		(property "Reference" "#PWR222"
 			(at 200.66 93.98 0)
 			(effects
 				(font
@@ -11408,14 +11408,14 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0222")
+					(reference "#PWR222")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_10u")
+		(lib_id "V2_Capacitor:0603_10u")
 		(at 129.54 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11528,7 +11528,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc6ef86e-7e88-4597-8811-4cd71fd52ec8")
-		(property "Reference" "#PWR0219"
+		(property "Reference" "#PWR219"
 			(at 162.56 90.17 0)
 			(effects
 				(font
@@ -11580,7 +11580,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0219")
+					(reference "#PWR219")
 					(unit 1)
 				)
 			)
@@ -11596,7 +11596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2142e64-7a04-43e8-9a80-e4fe4afa63f1")
-		(property "Reference" "#PWR0214"
+		(property "Reference" "#PWR214"
 			(at 101.6 173.99 0)
 			(effects
 				(font
@@ -11647,14 +11647,14 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0214")
+					(reference "#PWR214")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_0u1")
+		(lib_id "V2_Capacitor:0603_0u1")
 		(at 148.59 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11758,7 +11758,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_10u")
+		(lib_id "V2_Capacitor:0603_10u")
 		(at 119.38 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11966,7 +11966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e92b812c-dae7-4f25-a8af-2fb38683099a")
-		(property "Reference" "#PWR0221"
+		(property "Reference" "#PWR221"
 			(at 200.66 81.28 0)
 			(effects
 				(font
@@ -12017,7 +12017,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0221")
+					(reference "#PWR221")
 					(unit 1)
 				)
 			)
@@ -12252,7 +12252,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:C_0603_1u")
+		(lib_id "V2_Capacitor:0603_1u")
 		(at 137.16 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12459,7 +12459,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa54ed16-b7f2-4dee-9c32-aaf20c30d2e5")
-		(property "Reference" "#PWR0215"
+		(property "Reference" "#PWR215"
 			(at 109.22 50.8 0)
 			(effects
 				(font
@@ -12510,14 +12510,14 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0215")
+					(reference "#PWR215")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "V2_Device:FerriteBead_1206_50Ohm")
+		(lib_id "V2_Inductor:FerriteBead_1206_50Ohm")
 		(at 146.05 121.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12533,7 +12533,7 @@
 				)
 			)
 		)
-		(property "Value" "50 Ohm"
+		(property "Value" "~"
 			(at 150.622 118.491 90)
 			(effects
 				(font
@@ -12620,7 +12620,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff846367-2db3-4c20-a602-9da8c32f1e62")
-		(property "Reference" "#PWR0213"
+		(property "Reference" "#PWR213"
 			(at 99.06 58.42 0)
 			(effects
 				(font
@@ -12670,7 +12670,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/4b426d87-3618-4dce-b47e-751e2017b13a"
-					(reference "#PWR0213")
+					(reference "#PWR213")
 					(unit 1)
 				)
 			)
