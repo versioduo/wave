@@ -2657,7 +2657,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "47 Ω"
 				(at 1.905 -1.27 0)
 				(effects
 					(font
@@ -7750,7 +7750,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 173.99) (xy 25.4 173.99)
+			(xy 19.05 173.99) (xy 33.02 173.99)
 		)
 		(stroke
 			(width 0)
@@ -8228,7 +8228,7 @@
 		)
 		(uuid "04ea0143-0952-4127-96c3-9dd1093f2e34")
 	)
-	(label "Power"
+	(label "+24V-Supply"
 		(at 90.17 148.59 0)
 		(effects
 			(font
@@ -8468,7 +8468,7 @@
 		)
 		(uuid "67e0865f-8379-4d9b-87aa-c2a7fbf99875")
 	)
-	(label "+24V-Supply"
+	(label "+24V"
 		(at 41.91 148.59 0)
 		(effects
 			(font
@@ -8698,8 +8698,8 @@
 		)
 		(uuid "ea5557ad-563a-45e9-8f10-5d95c68094cc")
 	)
-	(label "Power"
-		(at 25.4 173.99 180)
+	(label "+24V-Supply"
+		(at 33.02 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9244,8 +9244,8 @@
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 75.184 154.559 90)
+		(property "Value" "47 Ω"
+			(at 72.898 154.559 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9326,7 +9326,7 @@
 		(lib_id "V2_Artwork:Arrow_In")
 		(at 236.22 142.24 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9370,15 +9370,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 236.22 142.24 0)
 			(effects
 				(font
@@ -10046,7 +10037,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 236.22 161.29 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10098,15 +10089,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 236.22 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -10120,7 +10102,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 236.22 154.94 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10172,15 +10154,6 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 236.22 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -10194,7 +10167,7 @@
 		(lib_id "V2_Artwork:Board_wave")
 		(at 175.26 160.02 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10236,15 +10209,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 175.26 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 175.26 160.02 0)
 			(effects
 				(font
@@ -10476,7 +10440,7 @@
 		(lib_id "V2_PCB_Devices:Button-bottom")
 		(at 203.835 152.4 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10517,15 +10481,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.835 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 203.835 152.4 0)
 			(effects
 				(font
@@ -10927,7 +10882,7 @@
 		(lib_id "V2_Artwork:Arrow_Out")
 		(at 236.22 148.59 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10971,15 +10926,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 236.22 148.59 0)
 			(effects
 				(font
@@ -11551,7 +11497,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 133.35 158.75 0)
+		(at 133.35 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11559,7 +11505,7 @@
 		(dnp no)
 		(uuid "47aef62f-1e10-4667-a673-0c31c881c34a")
 		(property "Reference" "J107"
-			(at 134.62 161.544 0)
+			(at 134.62 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11568,7 +11514,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 143.256 164.084 0)
+			(at 143.256 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11576,7 +11522,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 133.35 162.56 0)
+			(at 133.35 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11585,7 +11531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 162.56 0)
+			(at 133.35 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11594,7 +11540,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 158.75 0)
+			(at 133.35 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11603,7 +11549,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 133.35 171.958 0)
+			(at 133.35 177.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11612,7 +11558,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 133.35 175.26 0)
+			(at 133.35 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11781,7 +11727,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 236.22 167.64 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11825,15 +11771,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 236.22 167.64 0)
 			(effects
 				(font
@@ -13192,7 +13129,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 203.835 161.925 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13233,15 +13170,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.835 161.925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 203.835 161.925 0)
 			(effects
 				(font
@@ -13634,7 +13562,7 @@
 		(dnp no)
 		(uuid "8a44262e-a8d4-49ae-9a70-162d5ff83e93")
 		(property "Reference" "J104"
-			(at 134.874 145.796 0)
+			(at 134.62 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13643,7 +13571,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 143.002 148.59 0)
+			(at 142.748 151.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14562,7 +14490,7 @@
 		(lib_id "V2_Artwork:Dot")
 		(at 236.22 173.99 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -14606,15 +14534,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 236.22 173.99 0)
 			(effects
 				(font
@@ -15539,7 +15458,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 133.35 151.13 0)
+		(at 133.35 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15547,7 +15466,7 @@
 		(dnp no)
 		(uuid "da6c690c-eb8b-4679-b3f9-4b0702cdc21f")
 		(property "Reference" "J105"
-			(at 134.62 151.13 0)
+			(at 134.62 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15556,7 +15475,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 143.002 153.67 0)
+			(at 143.002 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15564,7 +15483,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 133.35 154.94 0)
+			(at 133.35 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15573,7 +15492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 154.94 0)
+			(at 133.35 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15582,7 +15501,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 151.13 0)
+			(at 133.35 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15591,7 +15510,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 133.35 164.338 0)
+			(at 133.35 166.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15600,7 +15519,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 133.35 167.64 0)
+			(at 133.35 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15782,7 +15701,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 133.35 156.21 0)
+		(at 133.35 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15790,7 +15709,7 @@
 		(dnp no)
 		(uuid "e8122ba5-babf-4ffc-9626-4743d71925af")
 		(property "Reference" "J106"
-			(at 134.62 156.21 0)
+			(at 134.62 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15799,7 +15718,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 143.002 159.004 0)
+			(at 143.002 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15807,7 +15726,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 133.35 160.02 0)
+			(at 133.35 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15816,7 +15735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 160.02 0)
+			(at 133.35 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15825,7 +15744,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 156.21 0)
+			(at 133.35 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15834,7 +15753,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 133.35 169.418 0)
+			(at 133.35 171.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15843,7 +15762,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 133.35 172.72 0)
+			(at 133.35 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16542,7 +16461,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 203.835 172.72 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -16583,15 +16502,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.835 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 203.835 172.72 0)
 			(effects
 				(font
@@ -16808,7 +16718,7 @@
 			)
 		)
 		(pin "OUT1P" output
-			(at 128.27 156.21 0)
+			(at 128.27 158.75 0)
 			(uuid "4ef13bfc-ce18-4c5a-ba09-60608d1fe082")
 			(effects
 				(font
@@ -16818,7 +16728,7 @@
 			)
 		)
 		(pin "OUT1N" output
-			(at 128.27 158.75 0)
+			(at 128.27 163.83 0)
 			(uuid "707a2f18-11ec-47b9-be65-99b33b23550e")
 			(effects
 				(font
@@ -16838,7 +16748,7 @@
 			)
 		)
 		(pin "OUT0N" output
-			(at 128.27 151.13 0)
+			(at 128.27 153.67 0)
 			(uuid "74ce68c7-d299-40c7-8e5c-1576e905cb08")
 			(effects
 				(font
