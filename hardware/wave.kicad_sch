@@ -6273,6 +6273,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -6398,6 +6399,7 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(color 255 92 187 1)
 					)
 				)
 			)
@@ -6779,7 +6781,7 @@
 	)
 	(text "Enable: When pulled high, the device\nis reset and kept in an inactive state."
 		(exclude_from_sim no)
-		(at 106.68 193.04 0)
+		(at 109.22 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6845,13 +6847,13 @@
 		(uuid "4757969e-6031-4831-9186-1369e38f09de")
 	)
 	(junction
-		(at 39.37 148.59)
+		(at 41.91 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d83494b-9ac1-47a2-89fb-fe4b88bd5228")
 	)
 	(junction
-		(at 39.37 156.21)
+		(at 41.91 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a574dc4-da93-429d-aea6-6761f4542892")
@@ -6875,19 +6877,19 @@
 		(uuid "664da7b2-44b2-41b0-98d9-25d60aa0a5d7")
 	)
 	(junction
-		(at 87.63 148.59)
+		(at 90.17 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66e885e2-a163-453c-b2e5-bdcb3e462df6")
 	)
 	(junction
-		(at 85.09 173.99)
+		(at 87.63 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67e3be9b-e4e5-4865-b3a2-5a0297831515")
 	)
 	(junction
-		(at 82.55 176.53)
+		(at 85.09 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70a41bdd-975f-4295-bc8a-c1bc402993e2")
@@ -6905,7 +6907,7 @@
 		(uuid "79482987-0494-4563-b2ce-d91a9a574839")
 	)
 	(junction
-		(at 64.77 148.59)
+		(at 67.31 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7dd49a24-dde3-4a88-8541-c6d4deae4ed9")
@@ -6935,25 +6937,25 @@
 		(uuid "8a870d28-4bc6-47f0-90c7-4656ae68dc42")
 	)
 	(junction
-		(at 19.05 182.88)
+		(at 21.59 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a294dbb2-b43e-43be-b628-8b5e1e8dc45d")
 	)
 	(junction
-		(at 43.18 182.88)
+		(at 45.72 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3d6adc7-2e14-4ff3-9365-ff32587135cc")
 	)
 	(junction
-		(at 105.41 182.88)
+		(at 107.95 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a990aef1-d40f-4c71-9329-593a355eed9b")
 	)
 	(junction
-		(at 78.74 148.59)
+		(at 81.28 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac4638d3-c27a-4511-81ef-732ba38b4889")
@@ -6983,7 +6985,7 @@
 		(uuid "d36ad8ca-e4a9-4d5f-8798-819bef2650b5")
 	)
 	(junction
-		(at 83.82 167.64)
+		(at 86.36 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db3da868-93d3-4293-b837-8cb84fc06c85")
@@ -7120,7 +7122,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 173.99) (xy 85.09 173.99)
+			(xy 67.31 173.99) (xy 87.63 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7140,7 +7142,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 182.88) (xy 43.18 182.88)
+			(xy 38.1 182.88) (xy 45.72 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7170,7 +7172,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 180.34) (xy 106.68 180.34)
+			(xy 92.71 180.34) (xy 109.22 180.34)
 		)
 		(stroke
 			(width 0)
@@ -7180,7 +7182,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 167.64) (xy 83.82 167.64)
+			(xy 85.09 167.64) (xy 86.36 167.64)
 		)
 		(stroke
 			(width 0)
@@ -7230,7 +7232,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 153.67) (xy 106.68 153.67)
+			(xy 92.71 153.67) (xy 109.22 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7280,7 +7282,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 181.61) (xy 19.05 182.88)
+			(xy 21.59 181.61) (xy 21.59 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7290,7 +7292,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 185.42) (xy 104.14 185.42)
+			(xy 107.95 185.42) (xy 106.68 185.42)
 		)
 		(stroke
 			(width 0)
@@ -7340,7 +7342,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 184.15) (xy 19.05 182.88)
+			(xy 21.59 184.15) (xy 21.59 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7360,7 +7362,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 182.88) (xy 43.18 182.88)
+			(xy 66.04 182.88) (xy 45.72 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7380,7 +7382,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 182.88) (xy 106.68 182.88)
+			(xy 107.95 182.88) (xy 109.22 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7420,7 +7422,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 172.72) (xy 85.09 173.99)
+			(xy 87.63 172.72) (xy 87.63 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7510,7 +7512,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 172.72) (xy 82.55 176.53)
+			(xy 85.09 172.72) (xy 85.09 176.53)
 		)
 		(stroke
 			(width 0)
@@ -7550,7 +7552,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 148.59) (xy 68.58 148.59)
+			(xy 67.31 148.59) (xy 71.12 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7560,7 +7562,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 176.53) (xy 82.55 176.53)
+			(xy 67.31 176.53) (xy 85.09 176.53)
 		)
 		(stroke
 			(width 0)
@@ -7620,7 +7622,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 173.99) (xy 106.68 173.99)
+			(xy 87.63 173.99) (xy 109.22 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7630,7 +7632,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 158.75) (xy 106.68 158.75)
+			(xy 92.71 158.75) (xy 109.22 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7660,7 +7662,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 182.88) (xy 105.41 185.42)
+			(xy 107.95 182.88) (xy 107.95 185.42)
 		)
 		(stroke
 			(width 0)
@@ -7670,7 +7672,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 148.59) (xy 78.74 148.59)
+			(xy 76.2 148.59) (xy 81.28 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7700,7 +7702,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 156.21) (xy 39.37 156.21)
+			(xy 39.37 156.21) (xy 41.91 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7730,7 +7732,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 182.88) (xy 105.41 182.88)
+			(xy 92.71 182.88) (xy 107.95 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7740,7 +7742,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 156.21) (xy 106.68 156.21)
+			(xy 92.71 156.21) (xy 109.22 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7750,7 +7752,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 173.99) (xy 33.02 173.99)
+			(xy 21.59 173.99) (xy 35.56 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7770,7 +7772,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 161.29) (xy 106.68 161.29)
+			(xy 92.71 161.29) (xy 109.22 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7820,7 +7822,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 167.64) (xy 85.09 167.64)
+			(xy 86.36 167.64) (xy 87.63 167.64)
 		)
 		(stroke
 			(width 0)
@@ -7910,7 +7912,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 148.59) (xy 64.77 148.59)
+			(xy 41.91 148.59) (xy 67.31 148.59)
 		)
 		(stroke
 			(width 0)
@@ -7920,7 +7922,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 176.53) (xy 19.05 173.99)
+			(xy 21.59 176.53) (xy 21.59 173.99)
 		)
 		(stroke
 			(width 0)
@@ -7950,7 +7952,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 184.15) (xy 43.18 182.88)
+			(xy 45.72 184.15) (xy 45.72 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7990,7 +7992,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 148.59) (xy 78.74 148.59)
+			(xy 90.17 148.59) (xy 81.28 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8060,7 +8062,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 176.53) (xy 106.68 176.53)
+			(xy 85.09 176.53) (xy 109.22 176.53)
 		)
 		(stroke
 			(width 0)
@@ -8100,7 +8102,7 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 182.88) (xy 30.48 182.88)
+			(xy 21.59 182.88) (xy 33.02 182.88)
 		)
 		(stroke
 			(width 0)
@@ -8130,7 +8132,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 148.59) (xy 106.68 148.59)
+			(xy 90.17 148.59) (xy 109.22 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8140,7 +8142,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 148.59) (xy 39.37 148.59)
+			(xy 39.37 148.59) (xy 41.91 148.59)
 		)
 		(stroke
 			(width 0)
@@ -8229,7 +8231,7 @@
 		(uuid "04ea0143-0952-4127-96c3-9dd1093f2e34")
 	)
 	(label "+24V-Supply"
-		(at 90.17 148.59 0)
+		(at 92.71 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8259,7 +8261,7 @@
 		(uuid "0b321256-8f44-4214-8f41-4987aefbbfb7")
 	)
 	(label "I2S-SCK"
-		(at 90.17 156.21 0)
+		(at 92.71 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8309,7 +8311,7 @@
 		(uuid "38e358d1-e228-4d1d-98a2-9d051d7f37d7")
 	)
 	(label "I2C-SCL"
-		(at 64.77 173.99 0)
+		(at 67.31 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8349,7 +8351,7 @@
 		(uuid "3d3d281f-7248-4e76-b781-6cfce1f99ad7")
 	)
 	(label "I2S-MCK"
-		(at 90.17 153.67 0)
+		(at 92.71 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8379,7 +8381,7 @@
 		(uuid "4eefd2a7-bdc8-4fe3-b1cd-34f7efe01516")
 	)
 	(label "Codec-Enable"
-		(at 90.17 182.88 0)
+		(at 92.71 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8469,7 +8471,7 @@
 		(uuid "67e0865f-8379-4d9b-87aa-c2a7fbf99875")
 	)
 	(label "+24V"
-		(at 41.91 148.59 0)
+		(at 44.45 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8489,7 +8491,7 @@
 		(uuid "7cf06c1d-ef68-4afc-a867-59c8601f744c")
 	)
 	(label "Voltage-Sense"
-		(at 63.5 182.88 180)
+		(at 66.04 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8689,7 +8691,7 @@
 		(uuid "e528ebdd-eac6-4133-bc6e-0a6a9889578a")
 	)
 	(label "I2S-SD0"
-		(at 90.17 161.29 0)
+		(at 92.71 161.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8699,7 +8701,7 @@
 		(uuid "ea5557ad-563a-45e9-8f10-5d95c68094cc")
 	)
 	(label "+24V-Supply"
-		(at 33.02 173.99 180)
+		(at 35.56 173.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8709,7 +8711,7 @@
 		(uuid "eb1bf0b0-733a-460e-8a6a-c48e51fcc296")
 	)
 	(label "Codec-Mute"
-		(at 90.17 180.34 0)
+		(at 92.71 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8739,7 +8741,7 @@
 		(uuid "f409950c-715c-4233-9886-b9f7f71df4f8")
 	)
 	(label "I2C-SDA"
-		(at 64.77 176.53 0)
+		(at 67.31 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8749,7 +8751,7 @@
 		(uuid "f60771dc-88e0-4302-adf9-19fb762cb701")
 	)
 	(label "I2S-FS"
-		(at 90.17 158.75 0)
+		(at 92.71 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9229,7 +9231,7 @@
 	)
 	(symbol
 		(lib_id "V2_Inductor:FerriteBead_3.1x5.1_47Ohm")
-		(at 71.12 148.59 90)
+		(at 73.66 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9237,7 +9239,7 @@
 		(dnp no)
 		(uuid "070d0c74-f4dd-4a67-9318-29bac37ff902")
 		(property "Reference" "FB101"
-			(at 71.0819 152.4 90)
+			(at 73.6219 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9245,7 +9247,7 @@
 			)
 		)
 		(property "Value" "47 Ω"
-			(at 72.898 154.559 90)
+			(at 75.438 154.559 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9254,7 +9256,7 @@
 			)
 		)
 		(property "Footprint" "V2_Inductor_SMD:L_3.1x5.1"
-			(at 71.12 150.368 90)
+			(at 73.66 150.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9263,7 +9265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 148.59 0)
+			(at 73.66 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9272,7 +9274,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
-			(at 82.55 148.59 0)
+			(at 85.09 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9281,7 +9283,7 @@
 			)
 		)
 		(property "Mouser" "623-2743019447LF"
-			(at 92.71 148.59 0)
+			(at 95.25 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9290,7 +9292,7 @@
 			)
 		)
 		(property "Product" "2743019447"
-			(at 90.17 148.59 0)
+			(at 92.71 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9299,7 +9301,7 @@
 			)
 		)
 		(property "Manufacturer" "Fair-Rite"
-			(at 87.63 148.59 0)
+			(at 90.17 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9326,7 +9328,7 @@
 		(lib_id "V2_Artwork:Arrow_In")
 		(at 236.22 142.24 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -9370,6 +9372,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 236.22 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 236.22 142.24 0)
 			(effects
 				(font
@@ -10037,7 +10048,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 236.22 161.29 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10089,6 +10100,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 236.22 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -10102,7 +10122,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 236.22 154.94 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10154,6 +10174,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 236.22 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -10167,7 +10196,7 @@
 		(lib_id "V2_Artwork:Board_wave")
 		(at 175.26 160.02 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10209,6 +10238,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 175.26 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 175.26 160.02 0)
 			(effects
 				(font
@@ -10333,7 +10371,7 @@
 	)
 	(symbol
 		(lib_id "V2_Resistor:0603_2k7")
-		(at 82.55 170.18 0)
+		(at 85.09 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10341,7 +10379,7 @@
 		(dnp no)
 		(uuid "2dc56fdf-7296-4447-9fd7-9554baa72fae")
 		(property "Reference" "R105"
-			(at 75.565 168.91 0)
+			(at 78.105 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10350,7 +10388,7 @@
 			)
 		)
 		(property "Value" "2k7"
-			(at 75.565 171.45 0)
+			(at 78.105 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10359,7 +10397,7 @@
 			)
 		)
 		(property "Footprint" "V2_Resistor_SMD:R_0603"
-			(at 82.55 170.18 0)
+			(at 85.09 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10368,7 +10406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 170.18 0)
+			(at 85.09 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10377,7 +10415,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 82.55 170.18 0)
+			(at 85.09 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10386,7 +10424,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW06032K70FKEAC"
-			(at 82.55 195.58 0)
+			(at 85.09 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10395,7 +10433,7 @@
 			)
 		)
 		(property "Product" "CRCW06032K70FKEAC"
-			(at 82.55 190.5 0)
+			(at 85.09 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10404,7 +10442,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 82.55 187.96 0)
+			(at 85.09 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10413,7 +10451,7 @@
 			)
 		)
 		(property "Rating" "100mW"
-			(at 82.55 193.04 0)
+			(at 85.09 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10440,7 +10478,7 @@
 		(lib_id "V2_PCB_Devices:Button-bottom")
 		(at 203.835 152.4 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10489,6 +10527,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 203.835 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -10500,7 +10547,7 @@
 	)
 	(symbol
 		(lib_id "V2_Resistor:0603_10k")
-		(at 19.05 186.69 0)
+		(at 21.59 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10508,7 +10555,7 @@
 		(dnp no)
 		(uuid "2ed26004-4838-4819-8424-2b66c7bdcbbd")
 		(property "Reference" "R102"
-			(at 21.59 185.42 0)
+			(at 24.13 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10517,7 +10564,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 21.59 187.96 0)
+			(at 24.13 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10526,7 +10573,7 @@
 			)
 		)
 		(property "Footprint" "V2_Resistor_SMD:R_0603"
-			(at 19.05 186.69 0)
+			(at 21.59 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10535,7 +10582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 186.69 0)
+			(at 21.59 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10544,7 +10591,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 19.05 186.69 0)
+			(at 21.59 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10553,7 +10600,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW060310K0FKEAC"
-			(at 19.05 209.55 0)
+			(at 21.59 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,7 +10609,7 @@
 			)
 		)
 		(property "Product" "CRCW060310K0FKEAC"
-			(at 19.05 204.47 0)
+			(at 21.59 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10571,7 +10618,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 19.05 201.93 0)
+			(at 21.59 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10580,7 +10627,7 @@
 			)
 		)
 		(property "Rating" "100mW"
-			(at 19.05 207.01 0)
+			(at 21.59 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10882,7 +10929,7 @@
 		(lib_id "V2_Artwork:Arrow_Out")
 		(at 236.22 148.59 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -10926,6 +10973,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 236.22 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 236.22 148.59 0)
 			(effects
 				(font
@@ -11010,7 +11066,7 @@
 	)
 	(symbol
 		(lib_id "V2_Diode:SMBJ24CA")
-		(at 39.37 152.4 90)
+		(at 41.91 152.4 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11018,7 +11074,7 @@
 		(dnp no)
 		(uuid "39be3234-c1a4-48b8-ada0-f1fc4a08e0a0")
 		(property "Reference" "TVS101"
-			(at 42.545 151.1299 90)
+			(at 45.085 151.1299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11027,7 +11083,7 @@
 			)
 		)
 		(property "Value" "SMBJ24CA"
-			(at 47.625 153.6699 90)
+			(at 50.165 153.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11035,7 +11091,7 @@
 			)
 		)
 		(property "Footprint" "V2_Diode_SMD:D_SMB"
-			(at 45.085 152.4 0)
+			(at 47.625 152.4 0)
 			(effects
 				(font
 					(size 0.0254 0.0254)
@@ -11044,15 +11100,6 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Transient Voltage Suppressor Diode, Bidirectional"
 			(at 52.07 152.4 0)
 			(effects
 				(font
@@ -11061,8 +11108,17 @@
 				(hide yes)
 			)
 		)
+		(property "Description" "Transient Voltage Suppressor Diode, Bidirectional"
+			(at 54.61 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Mouser" "652-SMBJ24CA-Q"
-			(at 62.484 152.4 0)
+			(at 65.024 152.4 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11072,7 +11128,7 @@
 			)
 		)
 		(property "Product" "SMBJ24CA-Q"
-			(at 57.15 152.4 0)
+			(at 59.69 152.4 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11082,7 +11138,7 @@
 			)
 		)
 		(property "Manufacturer" "Bourns"
-			(at 54.61 152.4 0)
+			(at 57.15 152.4 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11092,7 +11148,7 @@
 			)
 		)
 		(property "Rating" "24V"
-			(at 59.69 152.4 0)
+			(at 62.23 152.4 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11183,7 +11239,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 31.75 148.59 180)
+		(at 34.29 148.59 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11191,7 +11247,7 @@
 		(dnp no)
 		(uuid "3f03c8b3-a849-4693-9129-05d51436c6c9")
 		(property "Reference" "J101"
-			(at 22.733 148.59 0)
+			(at 18.923 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11199,7 +11255,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 28.448 151.13 0)
+			(at 24.638 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11207,7 +11263,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 31.75 144.78 0)
+			(at 34.29 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11216,7 +11272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 144.78 0)
+			(at 34.29 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11225,7 +11281,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 148.59 0)
+			(at 34.29 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11234,7 +11290,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 31.75 135.382 0)
+			(at 34.29 135.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11243,7 +11299,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 31.75 132.08 0)
+			(at 34.29 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11431,7 +11487,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 19.05 189.23 0)
+		(at 21.59 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11439,7 +11495,7 @@
 		(dnp no)
 		(uuid "467c08e5-de1b-4008-b810-72bde425b0de")
 		(property "Reference" "#PWR102"
-			(at 19.05 195.58 0)
+			(at 21.59 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11448,7 +11504,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 194.31 0)
+			(at 21.59 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11457,7 +11513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 19.05 189.23 0)
+			(at 21.59 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11466,7 +11522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 189.23 0)
+			(at 21.59 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11475,7 +11531,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 19.05 189.23 0)
+			(at 21.59 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11497,7 +11553,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 133.35 163.83 0)
+		(at 135.89 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11505,7 +11561,7 @@
 		(dnp no)
 		(uuid "47aef62f-1e10-4667-a673-0c31c881c34a")
 		(property "Reference" "J107"
-			(at 134.62 163.83 0)
+			(at 137.16 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11514,7 +11570,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 143.256 166.37 0)
+			(at 145.796 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11522,7 +11578,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 133.35 167.64 0)
+			(at 135.89 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11531,7 +11587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 167.64 0)
+			(at 135.89 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11540,7 +11596,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 163.83 0)
+			(at 135.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11549,7 +11605,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 133.35 177.038 0)
+			(at 135.89 177.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11558,7 +11614,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 133.35 180.34 0)
+			(at 135.89 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11727,7 +11783,7 @@
 		(lib_id "V2_Artwork:Plus")
 		(at 236.22 167.64 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -11771,6 +11827,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 236.22 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 236.22 167.64 0)
 			(effects
 				(font
@@ -12313,7 +12378,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 64.77 153.67 0)
+		(at 67.31 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12321,7 +12386,7 @@
 		(dnp no)
 		(uuid "5fd1a607-5852-45be-9c73-84721c9f6f47")
 		(property "Reference" "#PWR109"
-			(at 64.77 160.02 0)
+			(at 67.31 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12330,7 +12395,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 158.75 0)
+			(at 67.31 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12339,7 +12404,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 153.67 0)
+			(at 67.31 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12348,7 +12413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 153.67 0)
+			(at 67.31 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12357,7 +12422,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 153.67 0)
+			(at 67.31 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12703,7 +12768,7 @@
 	)
 	(symbol
 		(lib_id "V2_Resistor:0603_10k")
-		(at 33.02 182.88 90)
+		(at 35.56 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12711,7 +12776,7 @@
 		(dnp no)
 		(uuid "75ed9b2e-69ce-46f6-876d-774dcb4edd94")
 		(property "Reference" "R103"
-			(at 31.75 177.165 90)
+			(at 34.29 177.165 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12720,7 +12785,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 31.75 179.705 90)
+			(at 34.29 179.705 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12729,7 +12794,7 @@
 			)
 		)
 		(property "Footprint" "V2_Resistor_SMD:R_0603"
-			(at 33.02 182.88 0)
+			(at 35.56 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12738,7 +12803,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 182.88 0)
+			(at 35.56 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12747,7 +12812,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 33.02 182.88 0)
+			(at 35.56 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12756,7 +12821,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW060310K0FKEAC"
-			(at 55.88 182.88 0)
+			(at 58.42 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12765,7 +12830,7 @@
 			)
 		)
 		(property "Product" "CRCW060310K0FKEAC"
-			(at 50.8 182.88 0)
+			(at 53.34 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12774,7 +12839,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 48.26 182.88 0)
+			(at 50.8 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12783,7 +12848,7 @@
 			)
 		)
 		(property "Rating" "100mW"
-			(at 53.34 182.88 0)
+			(at 55.88 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12808,7 +12873,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+3V3")
-		(at 83.82 167.64 0)
+		(at 86.36 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12816,7 +12881,7 @@
 		(dnp no)
 		(uuid "76b68dc8-05d8-498c-bb74-c2a7f24ab333")
 		(property "Reference" "#PWR114"
-			(at 83.82 171.45 0)
+			(at 86.36 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12825,7 +12890,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 83.82 163.83 0)
+			(at 86.36 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12833,7 +12898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 167.64 0)
+			(at 86.36 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12842,7 +12907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 167.64 0)
+			(at 86.36 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12851,7 +12916,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 167.64 0)
+			(at 86.36 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13129,7 +13194,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 203.835 161.925 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -13170,6 +13235,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 203.835 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 203.835 161.925 0)
 			(effects
 				(font
@@ -13356,7 +13430,7 @@
 	)
 	(symbol
 		(lib_id "V2_Resistor:0603_100k")
-		(at 19.05 179.07 0)
+		(at 21.59 179.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13364,7 +13438,7 @@
 		(dnp no)
 		(uuid "895a55aa-a61a-45be-b11f-81ec7c776a33")
 		(property "Reference" "R101"
-			(at 21.59 177.8 0)
+			(at 24.13 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13373,7 +13447,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 24.13 180.34 0)
+			(at 26.67 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13381,7 +13455,7 @@
 			)
 		)
 		(property "Footprint" "V2_Resistor_SMD:R_0603"
-			(at 19.05 179.07 0)
+			(at 21.59 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13390,7 +13464,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 19.05 179.07 0)
+			(at 21.59 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13399,7 +13473,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 19.05 179.07 0)
+			(at 21.59 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13408,7 +13482,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW0603100KFKEAC"
-			(at 19.05 201.93 0)
+			(at 21.59 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13417,7 +13491,7 @@
 			)
 		)
 		(property "Rating" "100mW"
-			(at 19.05 199.39 0)
+			(at 21.59 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13426,7 +13500,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 19.05 194.31 0)
+			(at 21.59 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13435,7 +13509,7 @@
 			)
 		)
 		(property "Product" "CRCW0603100KFKEAC"
-			(at 19.05 196.85 0)
+			(at 21.59 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13554,7 +13628,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 133.35 148.59 0)
+		(at 135.89 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13562,7 +13636,7 @@
 		(dnp no)
 		(uuid "8a44262e-a8d4-49ae-9a70-162d5ff83e93")
 		(property "Reference" "J104"
-			(at 134.62 148.59 0)
+			(at 137.16 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13571,7 +13645,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 142.748 151.384 0)
+			(at 145.288 151.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13579,7 +13653,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 133.35 152.4 0)
+			(at 135.89 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13588,7 +13662,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 152.4 0)
+			(at 135.89 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13597,7 +13671,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 148.59 0)
+			(at 135.89 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13606,7 +13680,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 133.35 161.798 0)
+			(at 135.89 161.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13615,7 +13689,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 133.35 165.1 0)
+			(at 135.89 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14060,7 +14134,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:PWR_FLAG")
-		(at 87.63 148.59 270)
+		(at 90.17 148.59 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14068,7 +14142,7 @@
 		(dnp no)
 		(uuid "9d7f3ad6-02a3-4770-bd85-15fcce097159")
 		(property "Reference" "#FLG101"
-			(at 89.535 148.59 0)
+			(at 92.075 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14077,7 +14151,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 87.63 144.018 90)
+			(at 90.17 144.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14085,7 +14159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 148.59 0)
+			(at 90.17 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14094,7 +14168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 148.59 0)
+			(at 90.17 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14103,7 +14177,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 87.63 148.59 0)
+			(at 90.17 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14125,7 +14199,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 78.74 153.67 0)
+		(at 81.28 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14133,7 +14207,7 @@
 		(dnp no)
 		(uuid "aa688f44-9f2f-46d9-9af4-3ca49a025225")
 		(property "Reference" "#PWR112"
-			(at 78.74 160.02 0)
+			(at 81.28 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14142,7 +14216,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 158.75 0)
+			(at 81.28 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14151,7 +14225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 153.67 0)
+			(at 81.28 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14160,7 +14234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 153.67 0)
+			(at 81.28 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14169,7 +14243,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 153.67 0)
+			(at 81.28 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14191,7 +14265,7 @@
 	)
 	(symbol
 		(lib_id "V2_Capacitor:0603_0u1")
-		(at 43.18 186.69 0)
+		(at 45.72 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14199,7 +14273,7 @@
 		(dnp no)
 		(uuid "acad4f31-6c38-4e60-9c0f-aa17b6146ee5")
 		(property "Reference" "C103"
-			(at 45.72 186.6962 0)
+			(at 48.26 186.6962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14208,7 +14282,7 @@
 			)
 		)
 		(property "Value" "0u1"
-			(at 48.26 189.23 0)
+			(at 50.8 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14216,7 +14290,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_0603"
-			(at 43.18 186.69 0)
+			(at 45.72 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14225,7 +14299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 186.69 0)
+			(at 45.72 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14234,7 +14308,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 43.18 186.69 0)
+			(at 45.72 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14243,7 +14317,7 @@
 			)
 		)
 		(property "Mouser" "810-CGA3E2X7R1H104MA"
-			(at 43.18 207.01 0)
+			(at 45.72 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14252,7 +14326,7 @@
 			)
 		)
 		(property "Manufacturer" "TDK"
-			(at 43.18 201.93 0)
+			(at 45.72 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14261,7 +14335,7 @@
 			)
 		)
 		(property "Product" "CGA3E2X7R1H104M080AA"
-			(at 43.18 204.47 0)
+			(at 45.72 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14270,7 +14344,7 @@
 			)
 		)
 		(property "Rating" "50V"
-			(at 43.18 209.55 0)
+			(at 45.72 209.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14490,7 +14564,7 @@
 		(lib_id "V2_Artwork:Dot")
 		(at 236.22 173.99 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -14534,6 +14608,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 236.22 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 236.22 173.99 0)
 			(effects
 				(font
@@ -14656,7 +14739,7 @@
 	)
 	(symbol
 		(lib_id "V2_Resistor:0603_2k7")
-		(at 85.09 170.18 0)
+		(at 87.63 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14664,7 +14747,7 @@
 		(dnp no)
 		(uuid "bd6e69f6-e827-417e-b5b7-4cc4893b0296")
 		(property "Reference" "R106"
-			(at 86.9102 168.9791 0)
+			(at 89.4502 168.9791 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14673,7 +14756,7 @@
 			)
 		)
 		(property "Value" "2k7"
-			(at 86.8167 171.4105 0)
+			(at 89.3567 171.4105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14682,7 +14765,7 @@
 			)
 		)
 		(property "Footprint" "V2_Resistor_SMD:R_0603"
-			(at 85.09 170.18 0)
+			(at 87.63 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14691,7 +14774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 170.18 0)
+			(at 87.63 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14700,7 +14783,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 85.09 170.18 0)
+			(at 87.63 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14709,7 +14792,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW06032K70FKEAC"
-			(at 85.09 195.58 0)
+			(at 87.63 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14718,7 +14801,7 @@
 			)
 		)
 		(property "Product" "CRCW06032K70FKEAC"
-			(at 85.09 190.5 0)
+			(at 87.63 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14727,7 +14810,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 85.09 187.96 0)
+			(at 87.63 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14736,7 +14819,7 @@
 			)
 		)
 		(property "Rating" "100mW"
-			(at 85.09 193.04 0)
+			(at 87.63 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14761,7 +14844,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:+3V3")
-		(at 99.06 185.42 90)
+		(at 101.6 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14769,7 +14852,7 @@
 		(dnp no)
 		(uuid "bfe826ba-b6ae-45d4-9d17-d9a0bedcfdb0")
 		(property "Reference" "#PWR115"
-			(at 102.87 185.42 0)
+			(at 105.41 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14778,7 +14861,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 92.71 185.42 90)
+			(at 95.25 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14786,7 +14869,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 185.42 0)
+			(at 101.6 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14795,7 +14878,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 185.42 0)
+			(at 101.6 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14804,7 +14887,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 185.42 0)
+			(at 101.6 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14930,7 +15013,7 @@
 	)
 	(symbol
 		(lib_id "V2_Capacitor:0603_0u022")
-		(at 78.74 151.13 0)
+		(at 81.28 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14938,7 +15021,7 @@
 		(dnp no)
 		(uuid "c4589ebb-b840-4647-9980-98ff077126c9")
 		(property "Reference" "C106"
-			(at 81.28 149.86 0)
+			(at 83.82 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14947,7 +15030,7 @@
 			)
 		)
 		(property "Value" "0u022"
-			(at 81.28 151.7713 0)
+			(at 83.82 151.7713 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14956,7 +15039,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_0603"
-			(at 78.74 151.13 0)
+			(at 81.28 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14965,7 +15048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 151.13 0)
+			(at 81.28 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14974,7 +15057,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 78.74 151.13 0)
+			(at 81.28 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14983,7 +15066,7 @@
 			)
 		)
 		(property "Mouser" "603-CC603KPX7R9BB223"
-			(at 78.74 171.45 0)
+			(at 81.28 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14992,7 +15075,7 @@
 			)
 		)
 		(property "Product" "CC0603KPX7R9BB223"
-			(at 78.74 168.91 0)
+			(at 81.28 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15001,7 +15084,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 78.74 166.37 0)
+			(at 81.28 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15026,7 +15109,7 @@
 	)
 	(symbol
 		(lib_id "V2_Capacitor:0603_0u022")
-		(at 64.77 151.13 0)
+		(at 67.31 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15034,7 +15117,7 @@
 		(dnp no)
 		(uuid "cbd45cd5-a40c-4a8f-8cbb-6745a7590c29")
 		(property "Reference" "C105"
-			(at 57.15 149.86 0)
+			(at 59.69 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15043,7 +15126,7 @@
 			)
 		)
 		(property "Value" "0u022"
-			(at 55.88 151.7713 0)
+			(at 58.42 151.7713 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15052,7 +15135,7 @@
 			)
 		)
 		(property "Footprint" "V2_Capacitor_SMD:C_0603"
-			(at 64.77 151.13 0)
+			(at 67.31 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15061,7 +15144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 151.13 0)
+			(at 67.31 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15070,7 +15153,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 64.77 151.13 0)
+			(at 67.31 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15079,7 +15162,7 @@
 			)
 		)
 		(property "Mouser" "603-CC603KPX7R9BB223"
-			(at 64.77 171.45 0)
+			(at 67.31 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15088,7 +15171,7 @@
 			)
 		)
 		(property "Product" "CC0603KPX7R9BB223"
-			(at 64.77 168.91 0)
+			(at 67.31 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15097,7 +15180,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 64.77 166.37 0)
+			(at 67.31 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15122,7 +15205,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 39.37 156.21 0)
+		(at 41.91 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15130,7 +15213,7 @@
 		(dnp no)
 		(uuid "ce6d8b8e-be78-49fb-9b3a-7c43d004a47e")
 		(property "Reference" "#PWR104"
-			(at 39.37 162.56 0)
+			(at 41.91 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15139,7 +15222,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 161.29 0)
+			(at 41.91 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15148,7 +15231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 156.21 0)
+			(at 41.91 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15157,7 +15240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 156.21 0)
+			(at 41.91 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15166,7 +15249,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 156.21 0)
+			(at 41.91 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15292,7 +15375,7 @@
 	)
 	(symbol
 		(lib_id "V2_Resistor:0603_100k")
-		(at 101.6 185.42 90)
+		(at 104.14 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15300,7 +15383,7 @@
 		(dnp no)
 		(uuid "d4c43733-226e-406d-9974-ca05ecb5288a")
 		(property "Reference" "R107"
-			(at 101.6 187.96 90)
+			(at 104.14 187.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15308,7 +15391,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 101.6 190.5 90)
+			(at 104.14 190.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15316,7 +15399,7 @@
 			)
 		)
 		(property "Footprint" "V2_Resistor_SMD:R_0603"
-			(at 101.6 185.42 0)
+			(at 104.14 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15325,7 +15408,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 185.42 0)
+			(at 104.14 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15334,7 +15417,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 101.6 185.42 0)
+			(at 104.14 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15343,7 +15426,7 @@
 			)
 		)
 		(property "Mouser" "71-CRCW0603100KFKEAC"
-			(at 124.46 185.42 0)
+			(at 127 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15352,7 +15435,7 @@
 			)
 		)
 		(property "Rating" "100mW"
-			(at 121.92 185.42 0)
+			(at 124.46 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15361,7 +15444,7 @@
 			)
 		)
 		(property "Manufacturer" "Vishay"
-			(at 116.84 185.42 0)
+			(at 119.38 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15370,7 +15453,7 @@
 			)
 		)
 		(property "Product" "CRCW0603100KFKEAC"
-			(at 119.38 185.42 0)
+			(at 121.92 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15458,7 +15541,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 133.35 153.67 0)
+		(at 135.89 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15466,7 +15549,7 @@
 		(dnp no)
 		(uuid "da6c690c-eb8b-4679-b3f9-4b0702cdc21f")
 		(property "Reference" "J105"
-			(at 134.62 153.67 0)
+			(at 137.16 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15475,7 +15558,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 143.002 156.21 0)
+			(at 145.542 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15483,7 +15566,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 133.35 157.48 0)
+			(at 135.89 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15492,7 +15575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 157.48 0)
+			(at 135.89 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15501,7 +15584,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 153.67 0)
+			(at 135.89 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15510,7 +15593,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 133.35 166.878 0)
+			(at 135.89 166.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15519,7 +15602,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 133.35 170.18 0)
+			(at 135.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15701,7 +15784,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 133.35 158.75 0)
+		(at 135.89 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15709,7 +15792,7 @@
 		(dnp no)
 		(uuid "e8122ba5-babf-4ffc-9626-4743d71925af")
 		(property "Reference" "J106"
-			(at 134.62 158.75 0)
+			(at 137.16 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15718,7 +15801,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 143.002 161.544 0)
+			(at 145.542 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15726,7 +15809,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 133.35 162.56 0)
+			(at 135.89 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15735,7 +15818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 162.56 0)
+			(at 135.89 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15744,7 +15827,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 158.75 0)
+			(at 135.89 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15753,7 +15836,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 133.35 171.958 0)
+			(at 135.89 171.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15762,7 +15845,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 133.35 175.26 0)
+			(at 135.89 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16083,7 +16166,7 @@
 	)
 	(symbol
 		(lib_id "V2_Connector_WAGO:2065")
-		(at 31.75 156.21 180)
+		(at 34.29 156.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16091,7 +16174,7 @@
 		(dnp no)
 		(uuid "f50ad057-b841-4c26-ac78-76ae65c2bc69")
 		(property "Reference" "J102"
-			(at 22.479 156.21 0)
+			(at 18.669 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16099,7 +16182,7 @@
 			)
 		)
 		(property "Value" "WAGO 2065-100"
-			(at 28.448 158.75 0)
+			(at 24.638 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16107,7 +16190,7 @@
 			)
 		)
 		(property "Footprint" "V2_Connector_WAGO:2065-100"
-			(at 31.75 152.4 0)
+			(at 34.29 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16116,7 +16199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 152.4 0)
+			(at 34.29 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16125,7 +16208,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 156.21 0)
+			(at 34.29 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16134,7 +16217,7 @@
 			)
 		)
 		(property "Manufacturer" "WAGO"
-			(at 31.75 143.002 0)
+			(at 34.29 143.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16143,7 +16226,7 @@
 			)
 		)
 		(property "Product" "2065-100/998-403"
-			(at 31.75 139.7 0)
+			(at 34.29 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16330,7 +16413,7 @@
 	)
 	(symbol
 		(lib_id "V2_power:GND")
-		(at 43.18 189.23 0)
+		(at 45.72 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16338,7 +16421,7 @@
 		(dnp no)
 		(uuid "fe137069-64e2-4e0d-b2d7-407028129b25")
 		(property "Reference" "#PWR105"
-			(at 43.18 195.58 0)
+			(at 45.72 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16347,7 +16430,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 194.31 0)
+			(at 45.72 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16356,7 +16439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 189.23 0)
+			(at 45.72 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16365,7 +16448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 189.23 0)
+			(at 45.72 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16374,7 +16457,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 189.23 0)
+			(at 45.72 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16461,7 +16544,7 @@
 		(lib_id "V2_PCB_Devices:PCB_Plug_Horizontal")
 		(at 203.835 172.72 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -16502,6 +16585,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 203.835 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Enable" "0"
 			(at 203.835 172.72 0)
 			(effects
 				(font
@@ -16603,7 +16695,7 @@
 		)
 	)
 	(sheet
-		(at 106.68 146.05)
+		(at 109.22 146.05)
 		(size 21.59 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16619,7 +16711,7 @@
 		)
 		(uuid "4b426d87-3618-4dce-b47e-751e2017b13a")
 		(property "Sheetname" "Amplifier Audio"
-			(at 106.68 145.3384 0)
+			(at 109.22 145.3384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16628,7 +16720,7 @@
 			)
 		)
 		(property "Sheetfile" "AmplifierAudio.kicad_sch"
-			(at 106.68 186.0046 0)
+			(at 109.22 186.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16638,7 +16730,7 @@
 			)
 		)
 		(pin "Enable" input
-			(at 106.68 182.88 180)
+			(at 109.22 182.88 180)
 			(uuid "e127b4c5-4f87-4141-9152-aca83b1c4aaf")
 			(effects
 				(font
@@ -16648,7 +16740,7 @@
 			)
 		)
 		(pin "Mute" input
-			(at 106.68 180.34 180)
+			(at 109.22 180.34 180)
 			(uuid "e171ed7a-4345-4846-a9bb-b78872e4fbab")
 			(effects
 				(font
@@ -16658,7 +16750,7 @@
 			)
 		)
 		(pin "SCL" input
-			(at 106.68 173.99 180)
+			(at 109.22 173.99 180)
 			(uuid "3a940b7e-f142-466c-a273-3aedaf99b06b")
 			(effects
 				(font
@@ -16668,7 +16760,7 @@
 			)
 		)
 		(pin "FS" input
-			(at 106.68 158.75 180)
+			(at 109.22 158.75 180)
 			(uuid "2229833e-8cf0-4f39-b8d7-40f901c5e930")
 			(effects
 				(font
@@ -16678,7 +16770,7 @@
 			)
 		)
 		(pin "SD0" input
-			(at 106.68 161.29 180)
+			(at 109.22 161.29 180)
 			(uuid "2afc0f35-0513-4670-b011-a4b76b961f82")
 			(effects
 				(font
@@ -16688,7 +16780,7 @@
 			)
 		)
 		(pin "SCK" input
-			(at 106.68 156.21 180)
+			(at 109.22 156.21 180)
 			(uuid "2fad3f6a-6948-4f1b-867c-6d9da32c942c")
 			(effects
 				(font
@@ -16698,7 +16790,7 @@
 			)
 		)
 		(pin "MCK" input
-			(at 106.68 153.67 180)
+			(at 109.22 153.67 180)
 			(uuid "8b76496e-d1ec-4724-af92-65aeb11deb0a")
 			(effects
 				(font
@@ -16708,7 +16800,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 106.68 176.53 180)
+			(at 109.22 176.53 180)
 			(uuid "85815c53-4a5d-4a4b-8440-f7f35093bb1c")
 			(effects
 				(font
@@ -16718,7 +16810,7 @@
 			)
 		)
 		(pin "OUT1P" output
-			(at 128.27 158.75 0)
+			(at 130.81 158.75 0)
 			(uuid "4ef13bfc-ce18-4c5a-ba09-60608d1fe082")
 			(effects
 				(font
@@ -16728,7 +16820,7 @@
 			)
 		)
 		(pin "OUT1N" output
-			(at 128.27 163.83 0)
+			(at 130.81 163.83 0)
 			(uuid "707a2f18-11ec-47b9-be65-99b33b23550e")
 			(effects
 				(font
@@ -16738,7 +16830,7 @@
 			)
 		)
 		(pin "OUT0P" output
-			(at 128.27 148.59 0)
+			(at 130.81 148.59 0)
 			(uuid "c7c400f5-366b-451e-a16b-e7905c9d124f")
 			(effects
 				(font
@@ -16748,7 +16840,7 @@
 			)
 		)
 		(pin "OUT0N" output
-			(at 128.27 153.67 0)
+			(at 130.81 153.67 0)
 			(uuid "74ce68c7-d299-40c7-8e5c-1576e905cb08")
 			(effects
 				(font
@@ -16758,7 +16850,7 @@
 			)
 		)
 		(pin "Power" input
-			(at 106.68 148.59 180)
+			(at 109.22 148.59 180)
 			(uuid "817785e6-f1c2-4d07-9c5f-0a3d57f154d4")
 			(effects
 				(font
