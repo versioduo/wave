@@ -33,7 +33,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP5.45x5.45mm_ThermalVias"
+			(property "Footprint" "V2_Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP6x6mm_ThermalVias"
 				(at 0 -85.09 0)
 				(effects
 					(font
@@ -1360,8 +1360,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1540,8 +1540,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -14.478 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1720,8 +1720,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -15.24 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1900,8 +1900,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.462 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2080,8 +2080,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Polarized capacitor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -13.208 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2442,8 +2442,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Ferrite bead, small symbol"
-				(at 0 -13.97 0)
+			(property "Description" ""
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2624,8 +2624,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2791,8 +2791,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2958,8 +2958,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 -12.7 0)
+			(property "Description" ""
+				(at 0 -12.192 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -5642,7 +5642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 156.21 126.238 0)
 			(effects
 				(font
@@ -5747,7 +5747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 119.38 132.08 0)
 			(effects
 				(font
@@ -5851,7 +5851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 119.38 132.08 0)
 			(effects
 				(font
@@ -5956,7 +5956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 119.38 154.94 0)
 			(effects
 				(font
@@ -6043,7 +6043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "V2_Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP5.45x5.45mm_ThermalVias"
+		(property "Footprint" "V2_Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP6x6mm_ThermalVias"
 			(at 109.22 177.8 0)
 			(effects
 				(font
@@ -6347,7 +6347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 45.72 72.39 0)
 			(effects
 				(font
@@ -6546,7 +6546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead, small symbol"
+		(property "Description" ""
 			(at 157.48 83.82 0)
 			(effects
 				(font
@@ -6642,7 +6642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 143.51 41.91 0)
 			(effects
 				(font
@@ -6746,7 +6746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 82.55 57.15 0)
 			(effects
 				(font
@@ -6918,7 +6918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 55.88 43.18 0)
 			(effects
 				(font
@@ -7023,7 +7023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 45.72 64.77 0)
 			(effects
 				(font
@@ -7195,7 +7195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 119.38 26.67 0)
 			(effects
 				(font
@@ -7300,7 +7300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 119.38 93.98 0)
 			(effects
 				(font
@@ -7499,7 +7499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 81.28 160.02 0)
 			(effects
 				(font
@@ -7604,7 +7604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 55.88 74.93 0)
 			(effects
 				(font
@@ -7708,7 +7708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 77.47 149.86 0)
 			(effects
 				(font
@@ -7973,7 +7973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 119.38 147.32 0)
 			(effects
 				(font
@@ -8077,7 +8077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 148.59 137.16 0)
 			(effects
 				(font
@@ -8182,7 +8182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 129.54 93.98 0)
 			(effects
 				(font
@@ -8421,7 +8421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Description" ""
 			(at 163.83 54.61 0)
 			(effects
 				(font
@@ -8592,7 +8592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead, small symbol"
+		(property "Description" ""
 			(at 157.48 96.52 0)
 			(effects
 				(font
@@ -8753,7 +8753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 91.44 160.02 0)
 			(effects
 				(font
@@ -8924,7 +8924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 109.22 41.91 0)
 			(effects
 				(font
@@ -9029,7 +9029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 156.21 108.458 0)
 			(effects
 				(font
@@ -9134,7 +9134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 156.21 133.858 0)
 			(effects
 				(font
@@ -9370,7 +9370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 92.71 57.15 0)
 			(effects
 				(font
@@ -9475,7 +9475,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" ""
 			(at 44.45 55.88 0)
 			(effects
 				(font
@@ -9580,7 +9580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 153.67 26.67 0)
 			(effects
 				(font
@@ -10111,7 +10111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 119.38 119.38 0)
 			(effects
 				(font
@@ -10311,7 +10311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
+		(property "Description" ""
 			(at 129.54 54.61 0)
 			(effects
 				(font
@@ -10550,7 +10550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 129.54 119.38 0)
 			(effects
 				(font
@@ -10655,7 +10655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 129.54 106.68 0)
 			(effects
 				(font
@@ -10759,7 +10759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead, small symbol"
+		(property "Description" ""
 			(at 157.48 109.22 0)
 			(effects
 				(font
@@ -10854,7 +10854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 119.38 139.7 0)
 			(effects
 				(font
@@ -11093,7 +11093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 156.21 100.838 0)
 			(effects
 				(font
@@ -11329,7 +11329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 137.16 152.4 0)
 			(effects
 				(font
@@ -11500,7 +11500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 129.54 132.08 0)
 			(effects
 				(font
@@ -11738,7 +11738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 148.59 152.4 0)
 			(effects
 				(font
@@ -11843,7 +11843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 119.38 106.68 0)
 			(effects
 				(font
@@ -12336,7 +12336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 137.16 137.16 0)
 			(effects
 				(font
@@ -12601,7 +12601,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ferrite bead, small symbol"
+		(property "Description" ""
 			(at 157.48 121.92 0)
 			(effects
 				(font
