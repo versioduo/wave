@@ -2318,6 +2318,16 @@
 					(hide yes)
 				)
 			)
+			(property "Rating" "60V"
+				(at 0 -17.78 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "PMEG6030AEXEX_0_1"
 				(polyline
 					(pts
@@ -6487,6 +6497,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "60V"
+			(at 186.69 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9bff388-ec34-4fea-b130-d0cec034345f")
 		)
@@ -7440,6 +7459,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "60V"
+			(at 191.77 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4bf4b6e0-c652-4a26-93ec-d390af135746")
 		)
@@ -7907,6 +7935,15 @@
 		)
 		(property "Product" "PMEG6030AEXEX"
 			(at 191.77 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "60V"
+			(at 191.77 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9984,6 +10021,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "60V"
+			(at 186.69 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be241323-9f21-41be-97e8-6bfa3cbae33f")
 		)
@@ -10244,6 +10290,15 @@
 		)
 		(property "Product" "PMEG6030AEXEX"
 			(at 191.77 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "60V"
+			(at 191.77 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11983,6 +12038,15 @@
 				(hide yes)
 			)
 		)
+		(property "Rating" "60V"
+			(at 186.69 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5af56a6e-1364-49e2-92e3-2c018cd9d163")
 		)
@@ -12137,6 +12201,15 @@
 		)
 		(property "Product" "PMEG6030AEXEX"
 			(at 191.77 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "60V"
+			(at 191.77 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12469,6 +12542,15 @@
 		)
 		(property "Product" "PMEG6030AEXEX"
 			(at 186.69 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "60V"
+			(at 186.69 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
