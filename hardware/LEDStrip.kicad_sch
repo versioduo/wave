@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 wave")
-		(date "2026-03-26")
-		(rev "2026-03-11")
+		(date "2026-04-03")
+		(rev "2026-04-03")
 		(company "Versio Duo")
 	)
 	(lib_symbols
@@ -97,6 +97,17 @@
 			)
 			(property "Manufacturer" "Texas Instruments"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "74xGxx:${SYMBOL_NAME}"
+				(at 0 -12.7 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -304,6 +315,17 @@
 			)
 			(property "Manufacturer" "WAGO"
 				(at 0 -13.208 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "WAGO:${SYMBOL_NAME}"
+				(at 0 -6.35 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -929,6 +951,17 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 175.26 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0b2a967-b7e1-4123-83a3-098d9c982721")
 		)
@@ -1183,6 +1216,17 @@
 				)
 			)
 		)
+		(property "Id" "WAGO:${SYMBOL_NAME}"
+			(at 175.26 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f4d7048d-e279-4283-84b8-34c6b144130f")
 		)
@@ -1283,6 +1327,17 @@
 		)
 		(property "Manufacturer" "Texas Instruments"
 			(at 138.43 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Id" "74xGxx:${SYMBOL_NAME}"
+			(at 138.43 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
