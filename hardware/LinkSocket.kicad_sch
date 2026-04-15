@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "V2 wave")
-		(date "2026-04-03")
-		(rev "2026-04-03")
-		(company "Socket")
+		(date "2026-04-14")
+		(rev "2026-04-14")
+		(company "Versio Duo")
+		(comment 1 "Power Amplifier")
 	)
 	(lib_symbols
 		(symbol "V2_Capacitor:0603_0u1"
@@ -25,7 +26,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.778 1.524 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -36,7 +37,7 @@
 				)
 			)
 			(property "Value" "0u1"
-				(at 1.778 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -252,7 +253,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_Header_1.27mm:PinHeader_2x05_P1.27mm_Horizontal"
-				(at 0 -12.7 0)
+				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -274,7 +275,7 @@
 				)
 			)
 			(property "Description" "Amphenol – Minitek127"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -285,7 +286,29 @@
 				)
 			)
 			(property "Mouser" "649-200211120001T4LF"
+				(at 0 -27.94 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Amphenol FCI"
 				(at 0 -22.86 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Product" "20021112-00010T4LF"
+				(at 0 -25.4 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -306,19 +329,8 @@
 					)
 				)
 			)
-			(property "Manufacturer" "Amphenol FCI"
-				(at 0 -17.78 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Product" "20021112-00010T4LF"
-				(at 0 -20.32 0)
+			(property "Rating" "1A"
+				(at 0 -30.48 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -585,7 +597,29 @@
 				)
 			)
 			(property "Mouser" "595-THVD2442DRCR"
-				(at 0 -35.56 0)
+				(at 0 -36.83 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Product" "THVD2442DRCR "
+				(at 0 -34.29 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 0 -29.21 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -606,19 +640,8 @@
 					)
 				)
 			)
-			(property "Product" "THVD2442DRCR "
-				(at 0 -33.02 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Texas Instruments"
-				(at 0 -30.48 0)
+			(property "Rating" "20Mbps"
+				(at 1.27 -39.37 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1047,23 +1070,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "100R"
-				(at 3.81 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "100R"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
@@ -1244,7 +1269,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
-				(at 0 -12.192 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1987,7 +2012,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "013134c2-c495-4752-a9f3-dcc418142145")
-		(property "Reference" "#PWR403"
+		(property "Reference" "#PWR404"
 			(at 153.67 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2047,7 +2072,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR403")
+					(reference "#PWR404")
 					(unit 1)
 				)
 			)
@@ -2163,6 +2188,17 @@
 				)
 			)
 		)
+		(property "Rating" "20Mbps"
+			(at 154.94 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "410993e1-7cbb-43f8-9043-ba6a7a27131f")
 		)
@@ -2216,7 +2252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c2b6e53-6c81-4855-a907-696635136821")
-		(property "Reference" "#PWR401"
+		(property "Reference" "#PWR402"
 			(at 140.97 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -2277,7 +2313,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR401")
+					(reference "#PWR402")
 					(unit 1)
 				)
 			)
@@ -2294,7 +2330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cd5c335-1966-4dfd-b071-991164f7d6fd")
-		(property "Reference" "#PWR404"
+		(property "Reference" "#PWR405"
 			(at 153.67 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2355,7 +2391,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR404")
+					(reference "#PWR405")
 					(unit 1)
 				)
 			)
@@ -2372,7 +2408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "787831d5-b5ee-4f7d-9a05-eca8315877e8")
-		(property "Reference" "#PWR407"
+		(property "Reference" "#PWR401"
 			(at 142.24 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2433,7 +2469,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR407")
+					(reference "#PWR401")
 					(unit 1)
 				)
 			)
@@ -2584,7 +2620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c24a3bb8-0e10-4661-bef3-637b26771bc3")
-		(property "Reference" "#PWR406"
+		(property "Reference" "#PWR407"
 			(at 166.37 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -2645,7 +2681,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR406")
+					(reference "#PWR407")
 					(unit 1)
 				)
 			)
@@ -2750,6 +2786,17 @@
 		)
 		(property "Id" "Header:${SYMBOL_NAME}"
 			(at 153.67 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "1A"
+			(at 153.67 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2944,7 +2991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4f7cb67-659e-48cf-891a-d33dd94ae12e")
-		(property "Reference" "#PWR402"
+		(property "Reference" "#PWR403"
 			(at 151.13 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -3004,7 +3051,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR402")
+					(reference "#PWR403")
 					(unit 1)
 				)
 			)
@@ -3021,7 +3068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f51b6a91-c5d9-4189-94bb-77bc9d3f6b46")
-		(property "Reference" "#PWR405"
+		(property "Reference" "#PWR406"
 			(at 156.21 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3081,7 +3128,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR405")
+					(reference "#PWR406")
 					(unit 1)
 				)
 			)

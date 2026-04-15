@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "V2 wave")
-		(date "2026-04-03")
-		(rev "2026-04-03")
+		(date "2026-04-14")
+		(rev "2026-04-14")
 		(company "Versio Duo")
+		(comment 1 "Power Amplifier")
 	)
 	(lib_symbols
 		(symbol "V2_74xGxx:74AHC1G125"
@@ -108,6 +109,17 @@
 			)
 			(property "Id" "74xGxx:${SYMBOL_NAME}"
 				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "8mA"
+				(at 0 -30.48 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -281,7 +293,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_WAGO:2065-100"
-				(at 0 -9.906 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -314,18 +326,7 @@
 				)
 			)
 			(property "Manufacturer" "WAGO"
-				(at 0 -13.208 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Id" "WAGO:${SYMBOL_NAME}"
-				(at 0 -6.35 0)
+				(at 0 -12.7 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -336,7 +337,29 @@
 				)
 			)
 			(property "Product" "2065-100/998-403"
-				(at 0 -16.51 0)
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "WAGO:${SYMBOL_NAME}"
+				(at 0 -7.62 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "9A"
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -962,6 +985,17 @@
 				)
 			)
 		)
+		(property "Rating" "9A"
+			(at 175.26 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0b2a967-b7e1-4123-83a3-098d9c982721")
 		)
@@ -1227,6 +1261,17 @@
 				)
 			)
 		)
+		(property "Rating" "9A"
+			(at 175.26 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f4d7048d-e279-4283-84b8-34c6b144130f")
 		)
@@ -1338,6 +1383,17 @@
 		)
 		(property "Id" "74xGxx:${SYMBOL_NAME}"
 			(at 138.43 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "8mA"
+			(at 138.43 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

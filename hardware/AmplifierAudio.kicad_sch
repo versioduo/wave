@@ -6,9 +6,10 @@
 	(paper "A4")
 	(title_block
 		(title "V2 wave")
-		(date "2026-04-03")
-		(rev "2026-04-03")
+		(date "2026-04-14")
+		(rev "2026-04-14")
 		(company "Versio Duo")
+		(comment 1 "Power Amplifier")
 	)
 	(lib_symbols
 		(symbol "V2_Amplifier_Audio:MA12040P"
@@ -108,6 +109,17 @@
 			)
 			(property "Id" "Amplifier:${SYMBOL_NAME}"
 				(at 0 -80.01 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "30W"
+				(at 0 -95.25 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1357,7 +1369,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.778 1.524 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1368,7 +1380,7 @@
 				)
 			)
 			(property "Value" "0u1"
-				(at 1.778 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1568,7 +1580,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1579,7 +1591,7 @@
 				)
 			)
 			(property "Value" "1000p"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1779,7 +1791,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1790,7 +1802,7 @@
 				)
 			)
 			(property "Value" "10u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1990,7 +2002,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2001,7 +2013,7 @@
 				)
 			)
 			(property "Value" "1u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2201,7 +2213,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 2.032 1.27 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2212,7 +2224,7 @@
 				)
 			)
 			(property "Value" "330u"
-				(at 2.286 -1.016 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2433,27 +2445,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 7.62 0)
+				(at -2.54 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "PMEG6030AEXEX"
-				(at 0 5.08 0)
+				(at -2.54 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Diode_SMD:D_SOD-123HP"
-				(at 0 -7.62 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2486,7 +2500,7 @@
 				)
 			)
 			(property "Mouser" "771-PMEG6030AEXEX"
-				(at 0 -15.24 0)
+				(at 0 -20.32 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2497,7 +2511,7 @@
 				)
 			)
 			(property "Id" "Diode:${SYMBOL_NAME}"
-				(at 0 -8.89 0)
+				(at 0 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2508,7 +2522,7 @@
 				)
 			)
 			(property "Manufacturer" "Nexperia"
-				(at 0 -10.16 0)
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2519,7 +2533,7 @@
 				)
 			)
 			(property "Product" "PMEG6030AEXEX"
-				(at 0 -12.7 0)
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2530,7 +2544,7 @@
 				)
 			)
 			(property "Rating" "60V"
-				(at 0 -17.78 0)
+				(at 0 -22.86 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2631,7 +2645,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "FB"
-				(at 1.905 1.27 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2642,7 +2656,7 @@
 				)
 			)
 			(property "Value" "50Ω"
-				(at 1.905 -1.27 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2686,7 +2700,7 @@
 				)
 			)
 			(property "Manufacturer" "Fair-Rite"
-				(at 0 -21.59 0)
+				(at 0 -24.13 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2697,7 +2711,7 @@
 				)
 			)
 			(property "Product" "2512065007Y6"
-				(at 0 -16.51 0)
+				(at 0 -26.67 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2708,7 +2722,7 @@
 				)
 			)
 			(property "Mouser" "623-2512065007Y6"
-				(at 0 -19.05 0)
+				(at 0 -29.21 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2719,7 +2733,18 @@
 				)
 			)
 			(property "Id" "Ferrite:${SYMBOL_NAME}"
-				(at 0 -17.78 0)
+				(at 0 -21.59 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "6A"
+				(at 0 -31.75 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2848,7 +2873,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.016 1.016)
+						(size 1.27 1.27)
 					)
 					(justify left)
 				)
@@ -3046,7 +3071,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.016 1.016)
+						(size 1.27 1.27)
 					)
 					(justify left)
 				)
@@ -3244,7 +3269,7 @@
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.016 1.016)
+						(size 1.27 1.27)
 					)
 					(justify left)
 				)
@@ -3509,7 +3534,7 @@
 					)
 				)
 			)
-			(property "Id" "Mosfet:${SYMBOL_NAME}"
+			(property "Id" "MOSFET:${SYMBOL_NAME}"
 				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -6668,6 +6693,17 @@
 				)
 			)
 		)
+		(property "Rating" "30W"
+			(at 104.14 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fd5e496b-938a-43d1-b239-6c57fea53622")
 		)
@@ -7243,6 +7279,17 @@
 		)
 		(property "Id" "Ferrite:${SYMBOL_NAME}"
 			(at 163.83 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "6A"
+			(at 177.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9882,6 +9929,17 @@
 				)
 			)
 		)
+		(property "Rating" "6A"
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "757d12b7-5cb3-4c3b-93bc-362b6ac921b9")
 		)
@@ -11281,7 +11339,7 @@
 				)
 			)
 		)
-		(property "Id" "Mosfet:${SYMBOL_NAME}"
+		(property "Id" "MOSFET:${SYMBOL_NAME}"
 			(at 50.8 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12631,6 +12689,17 @@
 		)
 		(property "Id" "Ferrite:${SYMBOL_NAME}"
 			(at 163.83 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "6A"
+			(at 177.8 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14488,7 +14557,7 @@
 				)
 			)
 		)
-		(property "Id" "Mosfet:${SYMBOL_NAME}"
+		(property "Id" "MOSFET:${SYMBOL_NAME}"
 			(at 57.15 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -14980,6 +15049,17 @@
 		)
 		(property "Id" "Ferrite:${SYMBOL_NAME}"
 			(at 163.83 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "6A"
+			(at 177.8 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

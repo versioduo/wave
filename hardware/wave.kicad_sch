@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 wave")
-		(date "2026-04-03")
-		(rev "2026-04-03")
+		(date "2026-04-14")
+		(rev "2026-04-14")
 		(company "Versio Duo")
 		(comment 1 "Power Amplifier")
 	)
@@ -658,7 +658,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 2.032 1.016 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -669,7 +669,7 @@
 				)
 			)
 			(property "Value" "0u022"
-				(at 2.032 -1.524 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -869,7 +869,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.778 1.524 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -880,7 +880,7 @@
 				)
 			)
 			(property "Value" "0u1"
-				(at 1.778 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1080,7 +1080,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1091,7 +1091,7 @@
 				)
 			)
 			(property "Value" "10u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1291,7 +1291,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1302,7 +1302,7 @@
 				)
 			)
 			(property "Value" "18p"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1502,7 +1502,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 1.524 1.778 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1513,7 +1513,7 @@
 				)
 			)
 			(property "Value" "10u"
-				(at 1.524 -2.032 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2066,7 +2066,7 @@
 				)
 			)
 			(property "Footprint" "V2_Connector_WAGO:2065-100"
-				(at 0 -9.906 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2099,18 +2099,7 @@
 				)
 			)
 			(property "Manufacturer" "WAGO"
-				(at 0 -13.208 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Id" "WAGO:${SYMBOL_NAME}"
-				(at 0 -6.35 0)
+				(at 0 -12.7 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2121,7 +2110,29 @@
 				)
 			)
 			(property "Product" "2065-100/998-403"
-				(at 0 -16.51 0)
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "WAGO:${SYMBOL_NAME}"
+				(at 0 -7.62 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "9A"
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2191,27 +2202,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "Y"
-				(at 0 2.54 0)
+				(at -2.54 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "32k768"
-				(at 0 -3.81 0)
+				(at -2.54 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
-				(at -0.254 -12.192 0)
+				(at -0.254 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2244,7 +2257,7 @@
 				)
 			)
 			(property "Mouser" "815-ABS0716632.768KT"
-				(at 0 -15.24 0)
+				(at 0 -21.59 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2254,19 +2267,8 @@
 					)
 				)
 			)
-			(property "Id" "Crystal:${SYMBOL_NAME}"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Product" "ABS07-166-32.768KHZ-T"
-				(at 0 -12.7 0)
+				(at 0 -19.05 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2277,7 +2279,29 @@
 				)
 			)
 			(property "Manufacturer" "ABRACON"
-				(at 0 -10.16 0)
+				(at 0 -16.51 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "Crystal:${SYMBOL_NAME}"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "10ppm"
+				(at 0 -24.13 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2399,23 +2423,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TVS"
-				(at -1.27 3.81 0)
+				(at -3.81 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "CG0603MLC-05LE"
-				(at 0 -3.81 0)
+				(at -3.81 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Diode_SMD:D_0603"
@@ -2452,7 +2478,7 @@
 				)
 			)
 			(property "Mouser" "652-CG0603MLC-05LE"
-				(at 0 -17.78 0)
+				(at 0 -20.32 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2463,7 +2489,7 @@
 				)
 			)
 			(property "Id" "Diode:${SYMBOL_NAME}"
-				(at 0 -6.35 0)
+				(at 0 -11.43 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2474,7 +2500,7 @@
 				)
 			)
 			(property "Product" "CG0603MLC-05LE"
-				(at 0 -12.954 0)
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2485,7 +2511,7 @@
 				)
 			)
 			(property "Manufacturer" "Bourns"
-				(at 0 -10.16 0)
+				(at 0 -12.7 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2496,7 +2522,7 @@
 				)
 			)
 			(property "Rating" "5V"
-				(at 0 -15.24 0)
+				(at 0 -17.78 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2609,7 +2635,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "TVS"
-				(at -2.54 6.35 0)
+				(at -3.81 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2620,7 +2646,7 @@
 				)
 			)
 			(property "Value" "SMBJ24CA"
-				(at -2.54 3.81 0)
+				(at -3.81 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2675,7 +2701,7 @@
 				)
 			)
 			(property "Id" "Diode:${SYMBOL_NAME}"
-				(at 0 -6.35 0)
+				(at 0 -11.43 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2837,7 +2863,7 @@
 				)
 			)
 			(property "Footprint" "V2_ESD_Suppressor:SLP1210N6"
-				(at 0 -13.97 0)
+				(at 0 -19.05 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2870,7 +2896,7 @@
 				)
 			)
 			(property "Mouser" "947-RCLAMP0582N.TCT"
-				(at 0 -21.59 0)
+				(at 0 -26.67 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2881,7 +2907,7 @@
 				)
 			)
 			(property "Product" "RCLAMP0582N.TCT"
-				(at 0 -19.05 0)
+				(at 0 -24.13 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2892,7 +2918,7 @@
 				)
 			)
 			(property "Manufacturer" "Semtech"
-				(at 0 -16.51 0)
+				(at 0 -21.59 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2903,7 +2929,18 @@
 				)
 			)
 			(property "Id" "ESD:${SYMBOL_NAME}"
-				(at 0 -11.43 0)
+				(at 0 -16.51 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "20kV"
+				(at 0 -29.21 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3053,7 +3090,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "FB"
-				(at 1.905 1.27 0)
+				(at 2.54 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3064,7 +3101,7 @@
 				)
 			)
 			(property "Value" "47Ω"
-				(at 1.905 -1.27 0)
+				(at 2.54 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3108,17 +3145,6 @@
 				)
 			)
 			(property "Manufacturer" "Fair-Rite"
-				(at 0 -16.51 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Product" "2743019447"
 				(at 0 -19.05 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -3129,7 +3155,7 @@
 					)
 				)
 			)
-			(property "Mouser" "623-2743019447LF"
+			(property "Product" "2743019447"
 				(at 0 -21.59 0)
 				(show_name yes)
 				(do_not_autoplace no)
@@ -3140,8 +3166,30 @@
 					)
 				)
 			)
+			(property "Mouser" "623-2743019447LF"
+				(at 0 -24.13 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Id" "Ferrite:${SYMBOL_NAME}"
-				(at 0 -17.78 0)
+				(at 0 -16.51 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "5A"
+				(at 0 -26.67 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3265,27 +3313,29 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
-				(at 0 5.588 0)
+				(at -2.54 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "Orange"
-				(at 0 3.556 0)
+				(at -2.54 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_LED:LED_0603"
-				(at 0 -9.906 0)
+				(at 0 -14.986 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3318,7 +3368,7 @@
 				)
 			)
 			(property "Sim.Pins" "1=K 2=A"
-				(at 0 -15.24 0)
+				(at 0 -22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3329,7 +3379,7 @@
 				)
 			)
 			(property "Mouser" "755-SML-D12D1WT86"
-				(at 0 -7.62 0)
+				(at 0 -15.24 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3339,19 +3389,8 @@
 					)
 				)
 			)
-			(property "Id" "LED:${SYMBOL_NAME}"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Product" "SML-D12D1WT86"
-				(at 0 -12.7 0)
+				(at 0 -20.32 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3362,7 +3401,29 @@
 				)
 			)
 			(property "Manufacturer" "ROHM Semiconductor "
-				(at 0 -10.16 0)
+				(at 0 -17.78 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "LED:${SYMBOL_NAME}"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "605nm"
+				(at 0 -25.4 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3506,23 +3567,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D3"
-				(at 0 10.414 0)
+				(at -5.08 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "WS2812"
-				(at 0 7.874 0)
+				(at -5.08 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_LED:WS2812-2020"
@@ -3595,6 +3658,17 @@
 			(property "Id" "LED:${SYMBOL_NAME}"
 				(at 0 -8.89 0)
 				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "15mA"
+				(at 0 -24.13 0)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -3793,25 +3867,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 5.08 -44.45 0)
+				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "ATSAMD51J"
-				(at 5.08 -46.99 0)
+				(at 0 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "V2_Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP4.8x4.8mm_ThermalVias"
@@ -3883,6 +3955,17 @@
 			)
 			(property "Id" "MCU:${SYMBOL_NAME}"
 				(at 0 -63.5 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "Cortex-M4F"
+				(at 0 -81.28 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5833,17 +5916,6 @@
 					)
 				)
 			)
-			(property "Id" "LDO:${SYMBOL_NAME}"
-				(at 0 -31.75 0)
-				(show_name yes)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
 			(property "Manufacturer" "Texas Instruments"
 				(at 0 -41.148 0)
 				(show_name yes)
@@ -5857,6 +5929,28 @@
 			)
 			(property "Product" "TPS78433QWDRBRQ1"
 				(at 0 -43.942 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Id" "LDO:${SYMBOL_NAME}"
+				(at 0 -31.75 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Rating" "300mA"
+				(at 0 -49.53 0)
 				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
@@ -6064,23 +6158,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "100k"
-				(at 3.81 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "100k"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
@@ -6260,23 +6356,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "10k"
-				(at 3.302 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "10k"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
@@ -6456,18 +6554,18 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 1.778 1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.016 1.016)
+						(size 1.27 1.27)
 					)
 					(justify left)
 				)
 			)
 			(property "Value" "2k7"
-				(at 1.778 -1.27 0)
+				(at 1.27 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -6654,23 +6752,25 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "330R"
-				(at 4.064 -1.27 0)
+				(at 1.27 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
+				)
+			)
+			(property "Value" "330R"
+				(at 1.27 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "V2_Resistor_SMD:R_0603"
@@ -7069,7 +7169,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
-				(at 0 -12.192 0)
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -9652,7 +9752,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03dcd9b0-f4f5-4ff5-92d0-1d37c083eb45")
-		(property "Reference" "#PWR122"
+		(property "Reference" "#PWR123"
 			(at 189.23 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9712,7 +9812,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR122")
+					(reference "#PWR123")
 					(unit 1)
 				)
 			)
@@ -10328,6 +10428,17 @@
 				)
 			)
 		)
+		(property "Rating" "5A"
+			(at 100.33 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dc012586-4cf4-4fd6-8854-6be8a339709a")
 		)
@@ -10520,7 +10631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1090cb48-dc6b-438f-a60b-1c2a31ca2d6e")
-		(property "Reference" "#PWR110"
+		(property "Reference" "#PWR109"
 			(at 67.31 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -10581,7 +10692,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR110")
+					(reference "#PWR109")
 					(unit 1)
 				)
 			)
@@ -10759,6 +10870,17 @@
 		)
 		(property "Id" "LDO:${SYMBOL_NAME}"
 			(at 186.69 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "300mA"
+			(at 186.69 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11002,6 +11124,17 @@
 				)
 			)
 		)
+		(property "Rating" "605nm"
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "04d62725-9abb-40ec-b476-f92cf9ca5fab")
 		)
@@ -11196,6 +11329,17 @@
 		)
 		(property "Id" "LED:${SYMBOL_NAME}"
 			(at 248.92 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "15mA"
+			(at 248.92 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12224,6 +12368,17 @@
 				)
 			)
 		)
+		(property "Rating" "20kV"
+			(at 184.15 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "dcb9894a-3323-43ac-85c0-8dc9777453c4")
 		)
@@ -12802,6 +12957,17 @@
 				)
 			)
 		)
+		(property "Rating" "9A"
+			(at 34.29 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e5d99d53-3cb5-4ae0-b952-5c35ea54bc81")
 		)
@@ -13190,6 +13356,17 @@
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
 			(at 135.89 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 135.89 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13656,6 +13833,17 @@
 				)
 			)
 		)
+		(property "Rating" "Cortex-M4F"
+			(at 69.85 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "64"
 			(uuid "9d5a6786-8632-4821-b0e6-e97cabc706ec")
 			(alternate "GPIOIN")
@@ -13875,7 +14063,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d4a8ed6-8b2a-473e-b9dc-c684dffa2005")
-		(property "Reference" "#PWR123"
+		(property "Reference" "#PWR124"
 			(at 199.39 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13936,7 +14124,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR123")
+					(reference "#PWR124")
 					(unit 1)
 				)
 			)
@@ -14052,6 +14240,17 @@
 				)
 			)
 		)
+		(property "Rating" "15mA"
+			(at 264.16 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "992213e3-ec29-4768-b61d-6799515f11ee")
 		)
@@ -14084,7 +14283,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fd1a607-5852-45be-9c73-84721c9f6f47")
-		(property "Reference" "#PWR109"
+		(property "Reference" "#PWR110"
 			(at 67.31 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -14145,7 +14344,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR109")
+					(reference "#PWR110")
 					(unit 1)
 				)
 			)
@@ -14390,7 +14589,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d6738db-5b07-4846-8452-3aec4fabcb36")
-		(property "Reference" "#PWR113"
+		(property "Reference" "#PWR112"
 			(at 78.74 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14451,7 +14650,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR113")
+					(reference "#PWR112")
 					(unit 1)
 				)
 			)
@@ -15588,6 +15787,17 @@
 				)
 			)
 		)
+		(property "Rating" "10ppm"
+			(at 24.13 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f2c152de-214a-46e7-b4d0-e7b7121fb943")
 		)
@@ -15692,6 +15902,17 @@
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
 			(at 135.89 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 135.89 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16359,7 +16580,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa688f44-9f2f-46d9-9af4-3ca49a025225")
-		(property "Reference" "#PWR112"
+		(property "Reference" "#PWR113"
 			(at 81.28 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -16420,7 +16641,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR112")
+					(reference "#PWR113")
 					(unit 1)
 				)
 			)
@@ -16645,7 +16866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adb50803-13ff-48ce-b94f-a815ee97105b")
-		(property "Reference" "#PWR124"
+		(property "Reference" "#PWR122"
 			(at 186.69 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16706,7 +16927,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR124")
+					(reference "#PWR122")
 					(unit 1)
 				)
 			)
@@ -17371,7 +17592,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4589ebb-b840-4647-9980-98ff077126c9")
-		(property "Reference" "C106"
+		(property "Reference" "C107"
 			(at 83.82 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17490,7 +17711,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C106")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -17721,7 +17942,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cf32a5fd-5f5f-475f-9178-9dee2092531c")
-		(property "Reference" "C107"
+		(property "Reference" "C106"
 			(at 86.36 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17839,7 +18060,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "C107")
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -18143,6 +18364,17 @@
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
 			(at 135.89 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 135.89 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18465,6 +18697,17 @@
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
 			(at 135.89 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 135.89 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18940,6 +19183,17 @@
 		)
 		(property "Id" "WAGO:${SYMBOL_NAME}"
 			(at 34.29 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "9A"
+			(at 34.29 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19844,18 +20098,17 @@
 		(file
 			(name "V2_A4.kicad_wks")
 			(type worksheet)
-			(data |KLUv/WBhBk0QALbYTiEQtRsmZc5q276ayLS71D6kxbkmoTeIJM7lAHtEAMAAxQFGAD8ARQCbvIHa
-				a/wrVHSazXnPhvzar1BNtH1kxRf5EwCAQPh5F+e0kJq0nmtfKDvj37Jf3xQUlFKqztoXWzE7iAAI
-				iJ6Q5m2d9RAC9jcPPWe/GXf/9ewpPR3+uPbv7bdzvr37wXlr2X8dBHFXu7Z3HUG7Kvrz9qKU7eB2
-				v/MM4n/Mhfg5G5sn7WsDTS2mA1WyssZDsy4YdpEGzfD8Ny+85JzH7H+961FjX/x0qtq0MdaqJ8dx
-				k1KAwF+soV3VFnEoqewX+XNfTaqqPatRlLsbgcKhzs5+29sEzSaWRPZ4txDEjpmZNCoSiiMhaUwy
-				y4Jg3oe5pmhPRSS7MtJAerbfnYNNgaEkuCg6oVzYhbEsF1vRgtxS55zTIVig4URjFFJTI1qYFNIB
-				YESmRusYYvaiF0uSUdhu1Q2lFiOgdmN7VvaH2oWyw9MQXRuZtQQQoIsxFn2ldtnpQiUNa0HvDQCK
-				f/XTisCgEJQEXe/if4EJsakkqj8BMmGAU+ZM/AG8LSEJMfgkOKfSKPhw4rD3ZHfmNZYNfDMigEPJ
-				EBoIDghtm1kJ8BAQ8xyGdkOuFQy33sishFt8DZNX4uNRXJZ5hBy746RJaNtgbfyB613d0dov6Cdg
-				iUQT9BXkf9EiYDuODpB6gKkC|
+			(data |KLUv/WD5BbUPADbXSyEA1TbWikhSlOA2eC2ekVMEUCwq7NEwtcLUrO9RVbWigglBAD0ARQB3rDJr
+				Vfe8iEc347HKLOu3hM0n3acAgEAZ+mtWq1rqUSxebyypb/3fvvl2Ks1ai1318qyxua+IAgRM0MgT
+				vxCDqNazy01dUkv9SffBzyqWXV6zk7TDjC//75ZXzHffvHX4Y/Xf35uU+iW//OHdpP7XYKnf08G7
+				Ws+4sz/Se05W5tbSsFNFN3RTUXTjhdPWNR7ehuG4iIngvhBQHGxi+IlSiXCRzHYxEfbe576fb+gn
+				B78Z+mSX28Z5ZV5BEKwWAwQ+a06BCmH90rZJg9JtG4SrtqNsE+pn/kpSOzSUhmVScSgcO1gJcdSg
+				J6zLuq1W1TZJF+moiP3v9XDUP1+S1KFCs7SB4TTQalSg4UCjGDM0M3GaNAZgZObmWAewpQGB0gB3
+				GYWe0WuYLYxil2+HCVPCLoewmMo8a9CJow+hHPOLKHdUb0wU8lRpRE+qFdAXJgbU7nMwecZYivJQ
+				iTgLkNig5tH7xtAJA8QyZ+ZP4GUJKSTwm+RM51H7yWknvCe7YZZxrISdEQ48yLJBiQaevBZD1kY4
+				h0V7Dqlt/1rBcP0NQy83g9hYapcpANydipsbWw09qO7ggsG8qpSEBRoltBf/e9cTMh29AaQeYKo=|
 			)
-			(checksum "0A61268C685EAF945CA2EA8187370BD3")
+			(checksum "080A27BD1FADC1F81518BF82EA92C143")
 		)
 	)
 )
