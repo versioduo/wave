@@ -10,7 +10,7 @@
 #include <Wire.h>
 #include <arm_math.h>
 
-V2DEVICE_METADATA("com.versioduo.wave", 6, "versioduo:samd:wave");
+V2DEVICE_METADATA("com.versioduo.wave", 7, "versioduo:samd:wave");
 
 static V2LED::WS2812       LED(2, PIN_LED_WS2812, &sercom5, SPI_PAD_3_SCK_1, PIO_SERCOM_ALT);
 static V2LED::WS2812       LEDExt(64, PIN_LED_WS2812_EXT, &sercom4, SPI_PAD_0_SCK_1, PIO_SERCOM);
@@ -1124,7 +1124,7 @@ void setup() {
   // Set the SERCOM interrupt priority, it requires a stable ~300 kHz interrupt
   // frequency. This needs to be after begin().
   setSerialPriority(&SerialPlug, 2);
-  setSerialPriority(&SerialSocket, 2);
+  setSerialPriority(&SerialSocket, 1);
 
   Wire.begin();
   Wire.setClock(100000);
