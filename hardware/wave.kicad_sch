@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 wave")
-		(date "2026-04-14")
-		(rev "2026-04-14")
+		(date "2026-07-20")
+		(rev "2026-07-20")
 		(company "Versio Duo")
 		(comment 1 "Power Amplifier")
 	)
@@ -2444,7 +2444,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_Diode_SMD:D_0603"
+			(property "Footprint" "V2_Diode_SMD:D_1608"
 				(at 0 -5.715 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3334,7 +3334,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "V2_LED:LED_0603"
+			(property "Footprint" "V2_LED:LED_1608"
 				(at 0 -14.986 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5674,14 +5674,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "V2_Production:Layer_Numbers"
+		(symbol "V2_Production:Layer_Numbers-4"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "INFO"
-				(at 0 3.81 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5690,7 +5690,7 @@
 					)
 				)
 			)
-			(property "Value" "Layer_Numbers"
+			(property "Value" "Layer_Numbers-4"
 				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5701,7 +5701,7 @@
 					)
 				)
 			)
-			(property "Footprint" "V2_Production:Layer_Numbers"
+			(property "Footprint" "V2_Production:Layer_Numbers-4"
 				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5734,26 +5734,26 @@
 					)
 				)
 			)
-			(symbol "Layer_Numbers_0_0"
-				(text "1 2 3 4"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(symbol "Layer_Numbers_0_1"
+			(symbol "Layer_Numbers-4_0_1"
 				(rectangle
-					(start -5.08 1.27)
-					(end 5.08 -1.27)
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "Layer_Numbers-4_1_1"
+				(text "1 2"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
 			)
@@ -7942,10 +7942,22 @@
 		(uuid "c378fa20-2044-40f8-84b8-33436a5599c5")
 	)
 	(junction
+		(at 175.26 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca9fda56-2211-4f5c-8286-0eeba4e30969")
+	)
+	(junction
 		(at 109.22 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d36ad8ca-e4a9-4d5f-8798-819bef2650b5")
+	)
+	(junction
+		(at 175.26 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6e23bcc-1f91-4824-b9c3-2bdbbc572a43")
 	)
 	(junction
 		(at 86.36 167.64)
@@ -8022,10 +8034,6 @@
 		(uuid "579c80c9-4cbf-4de9-9a02-a045cc0ce153")
 	)
 	(no_connect
-		(at 175.26 100.33)
-		(uuid "6abd85b8-0bad-4a54-83ea-8356318cc5a9")
-	)
-	(no_connect
 		(at 86.36 81.28)
 		(uuid "77fc583a-f1f4-40d4-b9c9-c844e05d0d5c")
 	)
@@ -8064,10 +8072,6 @@
 	(no_connect
 		(at 271.78 53.34)
 		(uuid "c0f068ca-40fa-4f55-af0b-f02c3dae0653")
-	)
-	(no_connect
-		(at 175.26 107.95)
-		(uuid "cc443663-fcfe-436d-a299-1f766cb76ce6")
 	)
 	(no_connect
 		(at 86.36 93.98)
@@ -8743,6 +8747,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 97.79) (xy 175.26 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f09927c-73e1-4c41-adac-d725f2b5319a")
+	)
+	(wire
+		(pts
 			(xy 92.71 161.29) (xy 109.22 161.29)
 		)
 		(stroke
@@ -8780,6 +8794,16 @@
 			(type default)
 		)
 		(uuid "9ab3c934-b3f7-4d7e-bd20-8423f9d3bbfe")
+	)
+	(wire
+		(pts
+			(xy 175.26 105.41) (xy 175.26 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e1e0a28-9c2b-4dc2-a627-bac9ae51493b")
 	)
 	(wire
 		(pts
@@ -9752,7 +9776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "03dcd9b0-f4f5-4ff5-92d0-1d37c083eb45")
-		(property "Reference" "#PWR123"
+		(property "Reference" "#PWR0123"
 			(at 189.23 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -9812,7 +9836,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR123")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -9829,7 +9853,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "042911f1-6b84-46fa-aa64-c39cf668298a")
-		(property "Reference" "#PWR127"
+		(property "Reference" "#PWR0127"
 			(at 207.01 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9889,7 +9913,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR127")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -10041,7 +10065,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0471926a-3950-43fa-a586-9054138c6e5f")
-		(property "Reference" "#PWR133"
+		(property "Reference" "#PWR0133"
 			(at 271.78 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -10102,7 +10126,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR133")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -10119,7 +10143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "056079d2-3ad3-4d82-b61e-ffbc0d6f15e4")
-		(property "Reference" "#PWR125"
+		(property "Reference" "#PWR0125"
 			(at 199.39 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10179,7 +10203,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR125")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -10459,7 +10483,7 @@
 		(at 236.22 142.24 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -10522,17 +10546,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 236.22 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -10553,7 +10566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "107a1967-8a7b-4783-8c67-dd6285453328")
-		(property "Reference" "#PWR126"
+		(property "Reference" "#PWR0126"
 			(at 199.39 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10614,7 +10627,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR126")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -10631,7 +10644,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1090cb48-dc6b-438f-a60b-1c2a31ca2d6e")
-		(property "Reference" "#PWR109"
+		(property "Reference" "#PWR0109"
 			(at 67.31 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -10692,7 +10705,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR109")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -10937,7 +10950,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1953e842-0a90-4aa7-b581-212fd2cd9415")
-		(property "Reference" "#PWR103"
+		(property "Reference" "#PWR0103"
 			(at 26.67 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10998,7 +11011,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR103")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -11036,7 +11049,7 @@
 				)
 			)
 		)
-		(property "Footprint" "V2_LED:LED_0603"
+		(property "Footprint" "V2_LED:LED_1608"
 			(at 129.54 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -11161,7 +11174,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2099139d-7804-4997-9aee-952305f25158")
-		(property "Reference" "#PWR108"
+		(property "Reference" "#PWR0108"
 			(at 57.15 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -11222,7 +11235,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR108")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -11375,7 +11388,7 @@
 		(at 236.22 161.29 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -11438,17 +11451,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 236.22 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -11463,7 +11465,7 @@
 		(at 236.22 154.94 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -11526,17 +11528,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 236.22 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -11551,7 +11542,7 @@
 		(at 175.26 160.02 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -11612,17 +11603,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 175.26 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -11665,7 +11645,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "V2_Diode_SMD:D_0603"
+		(property "Footprint" "V2_Diode_SMD:D_1608"
 			(at 212.725 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11909,7 +11889,7 @@
 		(at 203.835 152.4 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -11959,17 +11939,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.835 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 203.835 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -12417,7 +12386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "375306fb-e86f-46d7-9105-e1b818c84990")
-		(property "Reference" "#PWR111"
+		(property "Reference" "#PWR0111"
 			(at 72.39 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -12477,7 +12446,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR111")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -12488,7 +12457,7 @@
 		(at 236.22 148.59 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -12551,17 +12520,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 236.22 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -12582,7 +12540,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3964a055-c6a7-4451-8a14-9c03d62eb8ea")
-		(property "Reference" "#PWR132"
+		(property "Reference" "#PWR0132"
 			(at 271.78 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -12642,7 +12600,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR132")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -12794,7 +12752,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d931ac1-f6a4-41af-9bb4-201685b566d8")
-		(property "Reference" "#PWR106"
+		(property "Reference" "#PWR0106"
 			(at 52.07 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -12854,7 +12812,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR106")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -13200,7 +13158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "467c08e5-de1b-4008-b810-72bde425b0de")
-		(property "Reference" "#PWR102"
+		(property "Reference" "#PWR0102"
 			(at 21.59 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -13261,7 +13219,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR102")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -13490,7 +13448,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50e843f1-1ba0-4cef-a032-494d2940de7c")
-		(property "Reference" "#PWR101"
+		(property "Reference" "#PWR0101"
 			(at 21.59 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -13551,7 +13509,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR101")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -13562,7 +13520,7 @@
 		(at 236.22 167.64 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -13625,17 +13583,6 @@
 				)
 			)
 		)
-		(property "Sim.Enable" "0"
-			(at 236.22 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
@@ -13656,7 +13603,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c1432c2-d084-4c9f-81c4-c015ec63a0bc")
-		(property "Reference" "#PWR117"
+		(property "Reference" "#PWR0117"
 			(at 107.95 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -13717,7 +13664,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR117")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -14063,7 +14010,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d4a8ed6-8b2a-473e-b9dc-c684dffa2005")
-		(property "Reference" "#PWR124"
+		(property "Reference" "#PWR0124"
 			(at 199.39 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -14124,7 +14071,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR124")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -14283,7 +14230,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5fd1a607-5852-45be-9c73-84721c9f6f47")
-		(property "Reference" "#PWR110"
+		(property "Reference" "#PWR0110"
 			(at 67.31 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -14344,7 +14291,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR110")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -14361,7 +14308,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6481033e-4277-488b-8ee2-f08211f463c0")
-		(property "Reference" "#PWR120"
+		(property "Reference" "#PWR0120"
 			(at 173.99 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14421,7 +14368,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR120")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -14438,7 +14385,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69b3843b-e8b9-4f3c-a182-6bd9b57b7de7")
-		(property "Reference" "#PWR107"
+		(property "Reference" "#PWR0107"
 			(at 57.15 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -14499,7 +14446,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR107")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -14589,7 +14536,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6d6738db-5b07-4846-8452-3aec4fabcb36")
-		(property "Reference" "#PWR112"
+		(property "Reference" "#PWR0112"
 			(at 78.74 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -14650,7 +14597,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR112")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -14667,7 +14614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f43d366-4b18-4a8c-ad8c-aec186c40610")
-		(property "Reference" "#PWR131"
+		(property "Reference" "#PWR0131"
 			(at 251.46 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -14728,7 +14675,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR131")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -14881,7 +14828,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76b68dc8-05d8-498c-bb74-c2a7f24ab333")
-		(property "Reference" "#PWR114"
+		(property "Reference" "#PWR0114"
 			(at 86.36 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -14941,7 +14888,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR114")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -15031,7 +14978,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77df6a97-6fb3-4f04-ae90-4acc6d3926a3")
-		(property "Reference" "#PWR129"
+		(property "Reference" "#PWR0129"
 			(at 245.11 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -15092,7 +15039,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR129")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -15183,7 +15130,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "819dcccb-fbf4-40dc-88e4-a3496c9ef425")
-		(property "Reference" "#PWR116"
+		(property "Reference" "#PWR0116"
 			(at 118.11 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -15243,7 +15190,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR116")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -15254,7 +15201,7 @@
 		(at 203.835 161.925 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -15304,17 +15251,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.835 161.925 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 203.835 161.925 0)
 			(hide yes)
 			(show_name no)
@@ -15470,7 +15406,7 @@
 		)
 	)
 	(symbol
-		(lib_id "V2_Production:Layer_Numbers")
+		(lib_id "V2_Production:Layer_Numbers-4")
 		(at 175.895 175.26 0)
 		(unit 1)
 		(body_style 1)
@@ -15491,7 +15427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Layer_Numbers"
+		(property "Value" "Layer_Numbers-4"
 			(at 175.2934 171.7885 0)
 			(hide yes)
 			(show_name no)
@@ -15502,7 +15438,7 @@
 				)
 			)
 		)
-		(property "Footprint" "V2_Production:Layer_Numbers"
+		(property "Footprint" "V2_Production:Layer_Numbers-4"
 			(at 175.895 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -16215,7 +16151,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "92ad24f7-46c7-43f4-bf6c-948ed68979f3")
-		(property "Reference" "#PWR121"
+		(property "Reference" "#PWR0121"
 			(at 173.99 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -16276,7 +16212,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR121")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -16503,7 +16439,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d7f3ad6-02a3-4770-bd85-15fcce097159")
-		(property "Reference" "#FLG101"
+		(property "Reference" "#FLG0101"
 			(at 92.075 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -16563,7 +16499,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#FLG101")
+					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -16580,7 +16516,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa688f44-9f2f-46d9-9af4-3ca49a025225")
-		(property "Reference" "#PWR113"
+		(property "Reference" "#PWR0113"
 			(at 81.28 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -16641,7 +16577,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR113")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -16866,7 +16802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "adb50803-13ff-48ce-b94f-a815ee97105b")
-		(property "Reference" "#PWR122"
+		(property "Reference" "#PWR0122"
 			(at 186.69 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16927,7 +16863,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR122")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -16944,7 +16880,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "af3092f3-ec71-4b35-b5f2-88a2045939cd")
-		(property "Reference" "#PWR119"
+		(property "Reference" "#PWR0119"
 			(at 147.32 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -17005,7 +16941,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR119")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -17016,7 +16952,7 @@
 		(at 236.22 173.99 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -17069,17 +17005,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 236.22 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 236.22 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -17380,7 +17305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bfe826ba-b6ae-45d4-9d17-d9a0bedcfdb0")
-		(property "Reference" "#PWR115"
+		(property "Reference" "#PWR0115"
 			(at 105.41 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -17440,7 +17365,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR115")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -17864,7 +17789,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce6d8b8e-be78-49fb-9b3a-7c43d004a47e")
-		(property "Reference" "#PWR104"
+		(property "Reference" "#PWR0104"
 			(at 41.91 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -17925,7 +17850,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR104")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -18541,7 +18466,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e32211ce-bb9e-4e22-87da-a3e4515ce0be")
-		(property "Reference" "#PWR128"
+		(property "Reference" "#PWR0128"
 			(at 207.01 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -18602,7 +18527,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR128")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -18740,7 +18665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8f17297-6a4c-46d8-b68d-89b74bb0c432")
-		(property "Reference" "#PWR118"
+		(property "Reference" "#PWR0118"
 			(at 119.38 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -18801,7 +18726,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR118")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -18818,7 +18743,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e9d0d2d7-a3e7-4a08-9346-3e467d51dfe9")
-		(property "Reference" "#PWR130"
+		(property "Reference" "#PWR0130"
 			(at 251.46 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -18879,7 +18804,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR130")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -19434,7 +19359,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe137069-64e2-4e0d-b2d7-407028129b25")
-		(property "Reference" "#PWR105"
+		(property "Reference" "#PWR0105"
 			(at 45.72 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -19495,7 +19420,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be"
-					(reference "#PWR105")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -19581,7 +19506,7 @@
 		(at 203.835 172.72 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -19631,17 +19556,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.835 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 203.835 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -20098,17 +20012,18 @@
 		(file
 			(name "V2_A4.kicad_wks")
 			(type worksheet)
-			(data |KLUv/WD5BbUPADbXSyEA1TbWikhSlOA2eC2ekVMEUCwq7NEwtcLUrO9RVbWigglBAD0ARQB3rDJr
-				Vfe8iEc347HKLOu3hM0n3acAgEAZ+mtWq1rqUSxebyypb/3fvvl2Ks1ai1318qyxua+IAgRM0MgT
-				vxCDqNazy01dUkv9SffBzyqWXV6zk7TDjC//75ZXzHffvHX4Y/Xf35uU+iW//OHdpP7XYKnf08G7
-				Ws+4sz/Se05W5tbSsFNFN3RTUXTjhdPWNR7ehuG4iIngvhBQHGxi+IlSiXCRzHYxEfbe576fb+gn
-				B78Z+mSX28Z5ZV5BEKwWAwQ+a06BCmH90rZJg9JtG4SrtqNsE+pn/kpSOzSUhmVScSgcO1gJcdSg
-				J6zLuq1W1TZJF+moiP3v9XDUP1+S1KFCs7SB4TTQalSg4UCjGDM0M3GaNAZgZObmWAewpQGB0gB3
-				GYWe0WuYLYxil2+HCVPCLoewmMo8a9CJow+hHPOLKHdUb0wU8lRpRE+qFdAXJgbU7nMwecZYivJQ
-				iTgLkNig5tH7xtAJA8QyZ+ZP4GUJKSTwm+RM51H7yWknvCe7YZZxrISdEQ48yLJBiQaevBZD1kY4
-				h0V7Dqlt/1rBcP0NQy83g9hYapcpANydipsbWw09qO7ggsG8qpSEBRoltBf/e9cTMh29AaQeYKo=|
+			(data |KLUv/WABBs0PAPaWSyEA1TbWikhSlOA2eC2ekVMEUCwq7NEwtcLUrO9RVbWigglBAD0ARABjlVmr
+				uudFPLoZj1VmWb8lbD7pPgUABMrQX7Na1VKPYvF6Y0l96//2zbdTadZa7KqXZ43NfUUUIGCCRp74
+				hRhEBdnlpi6ppf6k++BnFcsur9lJ2mHGl/93yyvmu2/eOvyx+u/vTUr9kl/+8G5S/2uw1O/p4F2t
+				Z9zZH+k95wbVytxaGnaq6KaiClvXeHgbhuMi7guB082G4mATw0+USoSLZLaLibD3Pvf9fEM/OfjN
+				0Ce73DbOK/MKgmC1GCDwWXOsB4EKYf3StkmD0m0bhKu2o2wT6mf+SlI7NJSGZVJxKBw7WAlx1KAn
+				rMu6rVbVNkkX6aiI/e/1cNQ/X5LUoUKztIHhNNACV6ABRYOUmppZnDRrYGTm5lgHuKUBCqUheRmB
+				mtErmC2cYpdvw4QpAS+HW0x9ni3oxOjDIsfMJMoe1TEVRT9Vsuj5tcL6QokDa/DzUfliHjoPDuAp
+				yB0UltwFSGjQ8qh9YsiEAU6ZM/MH8LbEFFL4TXKm8ij9cNrJ7wlu2DKOnbAzzIEHWY4okcCT1GJg
+				bYhzrGivkMr2LxUEt7459HIzhg2rdlkB6u5W3N7YeuhB6m4vyMxrpWQtkChBv9Dfi56Y6YgbQOoB
+				pgo=|
 			)
-			(checksum "080A27BD1FADC1F81518BF82EA92C143")
+			(checksum "6080E9E16B39514519B8031C50AB7B2F")
 		)
 	)
 )
