@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "V2 wave")
-		(date "2026-07-20")
-		(rev "2026-07-20")
+		(date "2026-07-22")
+		(rev "2026-07-22")
 		(company "Versio Duo")
 		(comment 1 "Power Amplifier")
 	)
@@ -2012,7 +2012,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "013134c2-c495-4752-a9f3-dcc418142145")
-		(property "Reference" "#PWR0404"
+		(property "Reference" "#PWR404"
 			(at 153.67 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -2072,7 +2072,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR0404")
+					(reference "#PWR404")
 					(unit 1)
 				)
 			)
@@ -2252,7 +2252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c2b6e53-6c81-4855-a907-696635136821")
-		(property "Reference" "#PWR0402"
+		(property "Reference" "#PWR402"
 			(at 140.97 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -2313,7 +2313,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR0402")
+					(reference "#PWR402")
 					(unit 1)
 				)
 			)
@@ -2330,7 +2330,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cd5c335-1966-4dfd-b071-991164f7d6fd")
-		(property "Reference" "#PWR0405"
+		(property "Reference" "#PWR405"
 			(at 153.67 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2391,7 +2391,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR0405")
+					(reference "#PWR405")
 					(unit 1)
 				)
 			)
@@ -2408,7 +2408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "787831d5-b5ee-4f7d-9a05-eca8315877e8")
-		(property "Reference" "#PWR0401"
+		(property "Reference" "#PWR401"
 			(at 142.24 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2469,7 +2469,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR0401")
+					(reference "#PWR401")
 					(unit 1)
 				)
 			)
@@ -2620,7 +2620,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c24a3bb8-0e10-4661-bef3-637b26771bc3")
-		(property "Reference" "#PWR0407"
+		(property "Reference" "#PWR407"
 			(at 166.37 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -2681,7 +2681,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR0407")
+					(reference "#PWR407")
 					(unit 1)
 				)
 			)
@@ -2991,7 +2991,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f4f7cb67-659e-48cf-891a-d33dd94ae12e")
-		(property "Reference" "#PWR0403"
+		(property "Reference" "#PWR403"
 			(at 151.13 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -3051,7 +3051,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR0403")
+					(reference "#PWR403")
 					(unit 1)
 				)
 			)
@@ -3068,7 +3068,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f51b6a91-c5d9-4189-94bb-77bc9d3f6b46")
-		(property "Reference" "#PWR0406"
+		(property "Reference" "#PWR406"
 			(at 156.21 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -3128,7 +3128,7 @@
 		(instances
 			(project "wave"
 				(path "/6c8448b4-b04d-47e1-934e-e40cbe27a7be/2a03ea79-269e-4abf-833c-000ba0ff13d7"
-					(reference "#PWR0406")
+					(reference "#PWR406")
 					(unit 1)
 				)
 			)
