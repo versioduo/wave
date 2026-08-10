@@ -10,10 +10,10 @@
 #include <Wire.h>
 #include <arm_math.h>
 
-V2DEVICE_METADATA("com.versioduo.wave", 7, "versioduo:samd:wave");
+V2DEVICE_METADATA("com.versioduo.wave", 8, "versioduo:samd:wave");
 
-static V2LED::WS2812       LED(2, PIN_LED_WS2812, &sercom5, SPI_PAD_3_SCK_1, PIO_SERCOM_ALT);
-static V2LED::WS2812       LEDExt(64, PIN_LED_WS2812_EXT, &sercom4, SPI_PAD_0_SCK_1, PIO_SERCOM);
+static V2LED::WS2812<2>    LED(PIN_LED_WS2812, sercom5, SPI_PAD_3_SCK_1, PIO_SERCOM_ALT);
+static V2LED::WS2812<64>   LEDExt(PIN_LED_WS2812_EXT, sercom4, SPI_PAD_0_SCK_1, PIO_SERCOM);
 static V2Link::Port        Plug(&SerialPlug, PIN_SERIAL_PLUG_TX_ENABLE);
 static V2Link::Port        Socket(&SerialSocket, PIN_SERIAL_SOCKET_TX_ENABLE);
 static V2Base::Analog::ADC ADC(1);
@@ -30,7 +30,7 @@ private:
   void handleNotify(float voltage) override {
     // Loss of power or requests to switch-on without a power connection show yellow LEDs.
     if (voltage < config.min) {
-      LED.splashHSV(0.5, V2Colour::Yellow, 1, 0.5);
+      LED.flash({V2Colour::Yellow, 1, 0.5}, 0.5);
       return;
     }
   }
@@ -208,7 +208,7 @@ public:
       _phasor.setFrequency(_frequency);
 
       if (!Codec.enableChannel(_channel)) {
-        LED.splashHSV(1, V2Colour::Magenta, 1, 0.5);
+        LED.flash({V2Colour::Magenta, 1, 0.5}, 1);
         stop();
       }
 
@@ -501,7 +501,7 @@ public:
     _channels[channel].play = {};
     _channels[channel].playing.reset();
 
-    LED.setHSV(channel, V2Colour::Orange, 1, 0.25);
+    LED.hsv({V2Colour::Orange, 1, 0.25}, channel);
     LEDExt.reset();
   }
 
@@ -518,7 +518,7 @@ public:
 
     stopMIDIFile();
     LED.reset();
-    LED.setHSV(V2Colour::Orange, 1, 0.25);
+    LED.hsv({V2Colour::Orange, 1, 0.25});
     LEDExt.reset();
   }
 
@@ -596,7 +596,7 @@ private:
 
   void light(uint8_t note, float fraction) {
     const float brightness = 0.2f + (0.8f * fraction);
-    LEDExt.setHSV(_led.h, _led.s, _led.v * brightness);
+    LEDExt.hsv({_led.h, _led.s, _led.v * brightness});
     led.flash(0.03, 0.3);
   }
 
@@ -1114,10 +1114,10 @@ void setup() {
   Serial.begin(9600);
 
   LED.begin();
-  LED.setMaxBrightness(0.5);
+  LED.brightnessMax(0.5);
 
   LEDExt.begin();
-  LEDExt.setMaxBrightness(0.75);
+  LEDExt.brightnessMax(0.75);
 
   Link.begin();
 
